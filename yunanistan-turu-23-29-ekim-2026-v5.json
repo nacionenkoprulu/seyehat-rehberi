@@ -1,0 +1,1968 @@
+{
+  "metadata": {
+    "title": "Yunanistan Özel Seyahat Rehberi - Kavala, Selanik, Halkidiki, Vergina, Meteora ve İskeçe",
+    "shortTitle": "Yunanistan Rotası",
+    "planStatus": "approved_current_plan",
+    "version": "5.0",
+    "createdAt": "2026-10-19",
+    "updatedAt": "2026-10-23",
+    "language": "tr-TR",
+    "timezone": "Europe/Athens",
+    "distanceAndTimeDisclaimer": "Mesafeler ve sürüş süreleri yaklaşık değerlerdir. İpsala sınır kapısındaki kuyruk yoğunluğu, otoyol gişeleri ve yol çalışmaları süreleri değiştirebilir.",
+    "bookingStatus": "Tüm otel rezervasyonları ve tüm rota üzerindeki 24 saat açık güvenli otoyol dinlenme tesisleri (ΣΕΑ) & benzin istasyonları konumlarıyla birlikte eklenmiştir."
+  },
+  "tripSummary": {
+    "travelers": 2,
+    "specialDietaryNotes": "Eşi çölyak hastasıdır (%100 glutensiz ve çapraz bulaşmasız mutfak zorunludur). Kendisi çölyak hastası değildir (gluten tüketebilir). Ancak dini sebeplerle her iki yolcu için de domuz eti, domuz yağı (lard) ve domuz türevleri kesinlikle tüketilmemektedir.",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-29",
+    "durationDays": 6,
+    "durationNights": 5,
+    "startLocation": "İstanbul, Türkiye",
+    "endLocation": "İstanbul, Türkiye",
+    "arrival": {
+      "departureFromIstanbul": "2026-10-23 22:00",
+      "date": "2026-10-24",
+      "estimatedBorderCrossingTime": "01:00 - 02:00 (Gece 00:00 sonrası)",
+      "borderName": "İpsala / Kipi Sınır Kapısı",
+      "country": "Yunanistan",
+      "note": "23 Ekim Cuma 22:00'de İstanbul'dan çıkış, 01:00 civarı Kipi sınır geçişi. Gece karanlıkta yorgun sürüş yapmamak için Kipi sınırından 15 dk sonraki 24 saat açık, kameralı 'SEA Orestias / Ardanio (EKO & Everest)' otoyol tesisinde (veya İskeçe-Kavala arasındaki 'SEA Musson / Kavala' tesisinde) güvenli uyku molası verilip sabah gün doğumuyla Kavala'ya varış."
+    },
+    "departure": {
+      "date": "2026-10-29",
+      "borderName": "Kipi / İpsala Sınır Kapısı",
+      "destination": "İstanbul, Türkiye",
+      "note": "Porto Lagos ve Gümülcine üzerinden A2 otoyoluyla Türkiye'ye dönüş"
+    },
+    "routeType": "circular_self_drive",
+    "vehicleType": "Şahsi Araç (İlk Yurt Dışı Sürüşü)",
+    "estimatedTotalDistanceKm": {
+      "min": 1850,
+      "max": 1950,
+      "exact": 1895
+    },
+    "estimatedTotalDrivingHoursIncludingNormalBorders": {
+      "min": 22,
+      "max": 25
+    },
+    "countries": [
+      "Türkiye",
+      "Yunanistan"
+    ],
+    "primaryHighways": [
+      "A2 (Egnatia Odos - Bölünmüş Ücretli Otoyol)",
+      "A1 (Selanik - Atina Bölünmüş Otoyolu)",
+      "A24 (Selanik - Kassandra Bölünmüş Otoyolu)"
+    ],
+    "excludedCountries": [
+      {
+        "country": "Kuzey Makedonya / Bulgaristan",
+        "reason": "Bu tur 6 günlük doğrudan Ege ve Kuzey Yunanistan odaklı planlanmıştır; transit geçiş ve fazladan sınır kapısı yoğunluğu oluşturmamak için rota dışı bırakılmıştır."
+      }
+    ],
+    "departureTimeFromIstanbul": "2026-10-23T22:00:00+03:00"
+  },
+  "approvedRoute": {
+    "orderedStops": [
+      "İstanbul (23 Ekim 22:00 Çıkış)",
+      "İpsala / Kipi Sınır Kapısı (01:00 Geçiş)",
+      "SEA Orestias / Ardanio (A2 Otoyolu 24 Saat Güvenli Dinlenme Tesisi - Gece Uyku Molası)",
+      "Kavala (Panagia & Liman - Sabah Erken Varış)",
+      "Selanik (Ano Poli / Yedikule)",
+      "Nea Elvetia Metro (Park & Ride)",
+      "Perea (Sahil)",
+      "Afytos (Halkidiki - Kassandra)",
+      "Vergina (Aigai Kraliyet Mezarları)",
+      "Kalambaka (Meteora Manastırları)",
+      "Dion Arkeolojik Parkı (Olimpos)",
+      "İskeçe (Xanthi Eski Şehir)",
+      "Mandra (Avdira)",
+      "Porto Lagos (Aziz Nikolaos)",
+      "İpsala Sınır Kapısı",
+      "İstanbul"
+    ],
+    "routeText": "İstanbul → İpsala → Kavala → Selanik → Perea → Afytos → Vergina → Meteora (Kalambaka) → Dion → İskeçe → Mandra → Porto Lagos → İpsala → İstanbul",
+    "googleMapsUrl": "https://www.google.com/maps/dir/%C4%B0stanbul,+T%C3%BCrkiye/%C4%B0psala+S%C4%B1n%C4%B1r+Kap%C4%B1s%C4%B1,+K%C3%B6pr%C3%BC,+%C4%B0psala%2FEdirne,+T%C3%BCrkiye/Atlas+Boutique+Suites,+%CE%9A%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CF%85+1,+%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/(%CE%BC)+Metro+Station+%22Nea+Elvetia%22,+Michail+Psellou,+Thessaloniki,+Greece/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan/Free+Parking+1+Afytos,+4C3M%2B76,+Kassandra,+Greece/Aigai+Kraliyet+Mezarlar%C4%B1+M%C3%BCzesi,+Vergina,+Yunanistan/Hotel+Kaikis,+Trikalon+146,+Kalampaka,+Yunanistan/Archaeological+Site+of+Dion,+Eparchiaki+Odos+Katerinis+-+Limena+Litochoriou+910,+Dion,+Greece/Petrinos+Lofos,+Mandra,+Mandra,+67061,+Avdira,+Greece/%CE%99%CE%B5%CF%81%CE%AC+%CE%9C%CE%BF%CE%BD%CE%AE+%CE%91%CE%B3%CE%AF%CE%BF%CF%85+%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%AC%CE%BF%CF%85,+Porto+Lagos,+Yunanistan/%C4%B0stanbul,+T%C3%BCrkiye"
+  },
+  "routeDecisions": {
+    "safetyStrategy": {
+      "status": "safe_motorways_only",
+      "title": "Güvenli Otoyol Tercihi",
+      "explanation": "İlk kez yurt dışına kendi aracınızla çıkacağınız için rotadaki tüm tehlikeli, dar dağ ve köy yolları elenmiştir. Ana geçişler tamamen A2 (Egnatia Odos) ve A1 bölünmüş ücretli otoyolları üzerinden planlanmıştır. Gişe ücretleri 1,50 € – 3,00 € arasındadır; hem kredi kartı hem nakit geçer."
+    },
+    "thessalonikiStrategy": {
+      "status": "park_and_ride_metro",
+      "title": "Selanik Metro Park & Ride",
+      "explanation": "Selanik merkezine araçla kesinlikle girilmeyecektir. Önce çevre yolundan tepe mahalle Ano Poli gezilecek, ardından doğu uçtaki Nea Elvetia Metro İstasyonu otoparkına (650 araçlık) bırakılarak merkeze metroyla inilip yürüyüş yokuş aşağı yapılacaktır."
+    },
+    "placesIntentionallyNotIncluded": [
+      {
+        "place": "Olimpos Dağı Zirve Sürüşü (Prionia)",
+        "reason": "Dar, dik ve virajlı dağ yolu ilk yurt dışı sürüşü için riskli görüldüğünden Olimpos Dağı eteklerindeki düz ayak Dion Arkeolojik Parkı tercih edilmiştir."
+      },
+      {
+        "place": "Büyük Meteoron Manastırı (İç Gezi)",
+        "reason": "Büyük Meteoron Salı günleri ziyarete kapalıdır. Bu nedenle Salı günü açık olan Varlaam (16:00) ve Roussanou (16:30) manastırları iç gezisi yapılıp Büyük Meteoron dışarıdan seyredilecektir."
+      },
+      {
+        "place": "Atina ve Mora Yarımadası",
+        "reason": "6 günlük sürede sürüş yorgunluğunu önlemek ve Kuzey Yunanistan kültür mirasına odaklanmak için ayrı bir geziye bırakılmıştır."
+      }
+    ],
+    "nightRestAreaStrategy": {
+      "status": "mandatory_manned_rest_station",
+      "title": "A2 (Egnatia Odos) Gece Güvenli Dinlenme Tesisi Kuralı (Çok Kritik!)",
+      "explanation": "Egnatia Odos (A2) otoyolunda İpsala/Kipi ile Selanik arasında Türkiye'deki gibi adım başı dinlenme tesisi YOKTUR! Otoyol kenarındaki 'WC / Parking' tabelalı ışıksız ve ıssız ceplerde gece kesinlikle durulmamalı ve uyunmamalıdır. Yabancı plakalı araçlar için sadece 24 saat açık, aydınlatmalı, güvenlik kameralı, içinde benzin istasyonu ve 24 saat açık market/kafe (Everest / Gregory's) bulunan resmi 'ΣΕΑ (SEA - Σταθμός Εξυπηρέτησης Αυτοκινητιστών)' tesisleri tercih edilmelidir.",
+      "recommendedRestStations": [
+        {
+          "name": "1. Seçenek (Sınırdan Hemen Sonra - En Güvenli): ΣΕΑ Ορεστιάδας / Αρδανίου (SEA Orestias / Ardanio - EKO & Everest)",
+          "distanceFromBorder": "Kipi Sınır Kapısı'ndan sadece 20 km (15 dakika) içeride, Dedeağaç'a gelmeden önce A2 otoyolu üzerinde.",
+          "facilities": "24 saat açık EKO akaryakıt istasyonu, 24 saat açık Everest kafe/fırın, temiz tuvaletler, tam aydınlatmalı ve kameralı otopark.",
+          "whyChoose": "Gece 01:00–02:00 civarı sınırı geçer geçmez uykunuz geldiyse hiç risk almadan 15 dakika sonra buraya çekip sabah 06:00'ya kadar güvenle uyuyabilirsiniz. Sabah 06:00'da yola çıkıp 07:45'te zinde şekilde Kavala'da olursunuz.",
+          "googleReviewNote": "Google Yorumu Notu (4.1/5): Gurbetçilerin ve Türkiye'den çıkan sürücülerin sınır sonrası ilk güvenli mola noktasıdır. Aracınızı 24 saat açık olan Everest kafenin ve pompaların tam karşısındaki aydınlık alana park etmeniz önerilir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=EKO+Everest+SEA+Ardaniou+Egnatia+Odos"
+        },
+        {
+          "name": "2. Seçenek (Yolu Yarılayıp Kavala Girişinde Uyumak İsterseniz): ΣΕΑ Καβάλας / Μουσθένης (SEA Musson / Kavala - Shell / EKO & Gregory's)",
+          "distanceFromBorder": "Kipi Sınır Kapısı'ndan yaklaşık 175 km (1 saat 45 dakika) sonra, Kavala'ya 20 dakika mesafede A2 otoyolu üzerinde.",
+          "facilities": "24 saat açık benzin istasyonu, kafe/market, geniş aydınlatmalı binek araç park alanı.",
+          "whyChoose": "Sınırı geçtikten sonra kendinizi dinç hissederseniz, 1.5 saat düz otoyolda sürüp saat 03:30 gibi buraya varabilir, sabah 07:30'a kadar uyuyup 20 dakikada Kavala merkeze inebilirsiniz.",
+          "googleReviewNote": "Google Yorumu Notu (4.2/5): A2 otoyolunun Kuzey Yunanistan'daki en büyük ve işlek dinlenme tesisidir. Kamyon/tır park alanı ile binek araç alanı ayrıdır; binek araçlar için istasyon binasının tam önü çok güvenlidir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Kavala+Egnatia+Odos"
+        },
+        {
+          "name": "3. Seçenek (Otoyoldan Çıkışlı Alternatif - Dedeağaç Girişi): 24 Saat Açık EKO / Shell İstasyonları (Alexandroupoli)",
+          "distanceFromBorder": "Kipi Sınır Kapısı'ndan 40 km (30 dakika) sonra Dedeağaç kavşağı.",
+          "facilities": "24 saat açık istasyon ve şehir girişi güvenliği.",
+          "whyChoose": "Ardanio tesisi kalabalık olursa 15 dk ilerideki Dedeağaç girişi ikinci güvenli noktadır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=24h+Gas+Station+Alexandroupoli"
+        }
+      ]
+    }
+  },
+  "greekSosCard": {
+    "title": "Restoranlarda Garsona Gösterilecek Yunanca Çölyak & Domuz Eti Kartı",
+    "description": "Restorana oturduğunuzda sipariş vermeden önce bu ekranı doğrudan garsona veya mutfak şefine okutun. Hem Çölyak hastalığını (çapraz bulaşma dahil) hem de domuz eti/yağı tüketmediğinizi eksiksiz ve resmi bir dille açıklar.",
+    "greekText": "Γεια σας! Η σύζυγός μου πάσχει από κοιλιοκάκη (σοβαρή αλλεργία στη γλουτένη). Δεν μπορεί να καταναλώσει απολύτως τίποτα που να περιέχει σιτάρι, κριθάρι, σίκαλη ή αλεύρι (ούτε σε σάλτσες, ούτε σε μαρινάδες). Επίσης, το φαγητό της δεν πρέπει να έρθει σε επαφή (επιμόλυνση) με λάδι φριτέζας όπου τηγανίστηκαν τρόφιμα με αλεύρι, ή με επιφάνειες/σκεύη που έχουν γλουτένη.\n\nΕπιπλέον, για θρησκευτικούς λόγους, δεν τρώμε καθόλου χοιρινό κρέας, μπέικον, ζαμπόν ή ζωικό λίπος χοιρινού.\n\nΜπορείτε σας παρακαλώ να μας προτείνετε ασφαλή πιάτα (π.χ. φρέσκο ψάρι ή θαλασσινά στη σχάρα, ψητό κοτόπουλο/αρνί ή καθαρά λαχανικά με ελαιόλαδο και λεμόνι); Σας ευχαριστούμε πολύ!",
+    "turkishTranslation": "Merhaba! Eşim çölyak hastasıdır (ciddi gluten alerjisi). Buğday, arpa, çavdar veya un içeren hiçbir şeyi (soslarda veya marinasyonlarda dahi) tüketemez. Ayrıca yemeği, unlu gıdaların kızartıldığı fritöz yağıyla veya glutenli yüzey/ekipmanlarla temas etmemelidir (çapraz bulaşma olmamalıdır). Ek olarak, dini sebeplerle hiçbir şekilde domuz eti, pastırması, jambonu veya domuz yağı yemiyoruz. Bize güvenli tabaklar (örneğin ızgara taze balık/deniz ürünleri, ızgara tavuk/kuzu veya sadece zeytinyağı ve limonlu sebzeler) önerebilir misiniz? Çok teşekkür ederiz!",
+    "safeFoods": [
+      {
+        "name": "Psari Skaras (Ψάρι Σχάρας)",
+        "desc": "Izgara taze balık (sadece zeytinyağı ve limon sosu = Ladolemono ile)."
+      },
+      {
+        "name": "Htapodi Skaras (Χταπόδι Σχάρας)",
+        "desc": "Izgara ahtapot (unlanmadığından emin olun, ızgara olanı tamamen doğaldır)."
+      },
+      {
+        "name": "Kalamari Skaras (Καλαμάρι Σχάρας)",
+        "desc": "Izgara kalamar (tava/tiganita unlu olduğu için yasaktır; mutlaka 'Skaras' isteyin)."
+      },
+      {
+        "name": "Horiatiki Salata (Χωριάτικη)",
+        "desc": "Klasik Yunan salatası (domates, salatalık, zeytin, saf zeytinyağı ve feta peyniri). Üzerine paximadi (peksimet) konulmamasını söyleyin."
+      },
+      {
+        "name": "Fava & Melitzanosalata",
+        "desc": "Sarı mercimek püresi (fava) ve köz patlıcan salatası (ekmeksiz tüketildiğinde doğal glutensizdir)."
+      }
+    ],
+    "hiddenTraps": [
+      {
+        "name": "Tiganita (Τηγανητά - Kızartmalar)",
+        "desc": "Kabak kızartması, kalamar tava ve patates kızartması genellikle unlanır veya aynı fritözde pişer; kesinlikle kaçının!"
+      },
+      {
+        "name": "Keftedes / Soutzoukakia (Köfteler)",
+        "desc": "Yunan köftelerinde hem ekmek içi (gluten) hem de %50 dana - %50 domuz kıyması karışımı sıkça kullanılır."
+      },
+      {
+        "name": "Gyros / Souvlaki",
+        "desc": "Tavuk (Kotopoulo) olsa dahi domuz döneriyle aynı ızgarada pişebilir veya soslarında gluten bulunabilir."
+      },
+      {
+        "name": "Kavala Kurabiyesi (Kourabiedes)",
+        "desc": "Geleneksel Kavala kurabiyelerinde bazen domuz yağı (lard) kullanılabilir ('Me voutyro galaktos, horis hoirino lipos' teyit edilmeli). Buğday unu içerdiği için eşiniz kesinlikle tüketmemelidir."
+      }
+    ]
+  },
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "date": "2026-10-23 (22:00 Çıkış) / 2026-10-24",
+      "weekday": "Cuma Gecesi – Cumartesi",
+      "title": "İstanbul (23 Ekim 22:00 Çıkış) – Kipi Sınırı – A2 Güvenli Dinlenme Tesisi (Gece Uykusu) – Sabah Kavala",
+      "start": "İstanbul",
+      "end": "Kavala",
+      "overnight": "Kavala",
+      "hotel": {
+        "name": "Atlas Boutique Suites",
+        "reservationCode": "6917068317",
+        "location": "Karanou 1, Kavala",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlas+Boutique+Suites+Kavala&query_place_id=ChIJaw0ige67rhQRDajTgxkIakM",
+        "googleReviewNotes": {
+          "googleRating": "4.8 / 5",
+          "highlights": "Panagia (Eski Şehir) girişinde mükemmel merkezi konum, tertemiz ve yeni dekore edilmiş odalar, ilgili ev sahibi.",
+          "warningsAndTips": [
+            "Otelin kendine ait özel otoparkı YOKTUR ve bulunduğu sokak yokuşlu/dardır. Google yorumlarında misafirler valizlerle yokuş çıkmamak için aracı mutlaka aşağıda sahil/liman otoparkına (Parking Teloneiou) bırakmayı önermektedir.",
+            "Binada asansör bulunmadığı ve dik basamaklar olduğu yorumlarda sıkça belirtilmiştir; büyük valiz yerine gece çantasıyla çıkmanız çok daha rahat olur.",
+            "Sabah erken (05:30-06:00 gibi) Kavala'ya varacağınız için normal check-in saati (14:00-15:00) öncesinde eşyalarınızı bagajda bırakıp geziye başlayabilir, ev sahibine önceden WhatsApp üzerinden varış saatinizi bildirebilirsiniz."
+          ]
+        }
+      },
+      "estimatedDistanceKm": {
+        "min": 440,
+        "max": 460,
+        "exact": 450
+      },
+      "estimatedDrivingHoursIncludingNormalBorders": {
+        "min": 5.5,
+        "max": 6.5
+      },
+      "criticalAlert": "KRİTİK GECE SÜRÜŞ UYARISI: Bu gece 01:00 civarı Kipi sınırından geçtikten sonra A2 otoyolu üzerindeki ıssız/ışıksız 'WC-Parking' ceplerinde kesinlikle durmayın! Sınırdan 15 dk sonraki 24 saat açık 'SEA Ardanio (EKO & Everest)' tesisinde (veya kendinizi dinç hissederseniz Kavala yakınındaki 'SEA Musson' tesisinde) pompaların/marketin tam karşısındaki aydınlık alanda güvenle uyuyun. Sabah gün doğumuyla yola devam edip Kavala'ya zinde şekilde ulaşın!",
+      "parking": [
+        {
+          "title": "1. Πάρκινγκ Τελωνείου (Gümrük / Liman Açık Otoparkı - Ana Öneri)",
+          "type": "Ücretli Güvenli Liman Otoparkı",
+          "fee": "İlk 3 saat ~2,00 €, ilave saat başı ~0,50 €; Günlük/24 Saatlik tam gün ücreti yaklaşık 5,00 € – 8,00 €.",
+          "description": "Dar sokaklara hiç girmeden sahil yolundan doğrudan girilen, 24 saat açık, düz ayak güvenli otopark. Otelinize ve Panagia Eski Şehir girişine 5 dk yürüme mesafesindedir.",
+          "googleReviewNote": "Yorumlarda büyük araçlar ve yabancı plakalı turistler için en güvenli ve geniş alan olduğu, ancak girişte nakit/bozuk Euro bulundurulması gerektiği belirtilmiştir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Teloneiou+Kavala&query_place_id=ChIJbQpGQAC7rhQRmvMbtsMH1dc"
+        },
+        {
+          "title": "2. Parking Rhodope (Liman Arkası / Merkez Kapalı & Açık Otopark)",
+          "type": "Ücretli Otopark",
+          "fee": "Saatlik ~2,00 € – 3,00 €, Günlük (24 saat) ~10,00 € – 12,00 €.",
+          "description": "Otelinize (Atlas Boutique Suites) en yakın alternatif ücretli otopark alanıdır.",
+          "googleReviewNote": "Merkeze çok yakın olduğu için öğlen saatlerinde hızla dolmaktadır; sabah erken varışınızda rahatlıkla yer bulabilirsiniz.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Kavala+Port"
+        },
+        {
+          "title": "3. Liman Batı Ucu & Sahil Boyu Belediye Park Alanı (Faliro / İhtiyari Ücretsiz Alan)",
+          "type": "Ücretsiz / Düşük Ücretli Açık Alan",
+          "fee": "Ücretsiz (Belirli belediye çizgili alanlarda gündüz saatlik 1,00 € mobil/büfe biletli, liman batı ucu ücretsiz).",
+          "description": "Limanın batı ucunda yer alan açık sahil otopark alanıdır; merkeze 10-12 dakika düz yürüyüş mesafesindedir.",
+          "googleReviewNote": "Ücretsiz olduğu için yerel halk tarafından yoğun kullanılır; gece/sabah karşı varışta boş yer bulmak çok kolaydır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Free+Parking+Kavala&query_place_id=ChIJrZ_1_Qe7rhQRphd5tu4RJVg"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "startTime": "22:00 (23 Ekim Cuma)",
+          "endTime": "01:00 (24 Ekim Cumartesi)",
+          "activity": "İstanbul'dan saat 22:00'de hareket. Tekirdağ ve Keşan üzerinden İpsala Sınır Kapısı'na varış (Sınıra girmeden hemen önce Türkiye tarafındaki Shell/Opet'ten tam depo yakıt alımı)."
+        },
+        {
+          "startTime": "01:00",
+          "endTime": "02:00",
+          "activity": "İpsala (TR) ve Kipi (GR) Sınır Kapısı geçişi (00:00 sonrası olduğu için 24 Ekim vize ve Yeşil Sigorta başlangıcı tam geçerlidir)."
+        },
+        {
+          "startTime": "02:00",
+          "endTime": "02:20",
+          "activity": "A2 (Egnatia Odos) otoyoluna giriş ve 20 km ilerideki 24 saat açık 'ΣΕΑ Αρδανίου / Ορεστιάδας (SEA Ardanio - EKO & Everest)' dinlenme tesisine varış.",
+          "historyInfo": "Kipi sınırından çıktıktan sonra A2 otoyolu üzerindeki İLK resmi ve 24 saat açık dinlenme tesisidir.",
+          "googleReviewNote": "Google Yorumu & Güvenlik Notu: Tesis 24 saat açıktır, aydınlatmalıdır ve güvenlik kameraları mevcuttur. Aracınızı karanlık tır parkına değil, doğrudan 24 saat açık Everest kafe ve benzin pompalarının önündeki aydınlık binek araç park yerine çekin. Kapıları içeriden kilitleyip camı 1 parmak aralayarak güvenle uyuyabilirsiniz."
+        },
+        {
+          "startTime": "02:20",
+          "endTime": "06:30",
+          "activity": "SEA Ardanio (EKO & Everest) Dinlenme Tesisinde Gece Uyku ve Dinlenme Molası (Alternatif: Sınırda uykunuz yoksa 1.5 saat daha sürüp Kavala'ya 20 dk mesafedeki 'SEA Musson/Kavala' tesisinde 03:45–07:45 arası uyuyabilirsiniz)."
+        },
+        {
+          "startTime": "06:30",
+          "endTime": "08:15",
+          "activity": "Sabah gün doğumuyla dinlenmiş olarak SEA Ardanio tesisinden hareket; Dedeağaç, Gümülcine ve İskeçe çevre yolunu (A2 Egnatia Odos) takip ederek güvenli sabah sürüşüyle Kavala'ya varış (180 km - ~1 saat 45 dk)."
+        },
+        {
+          "startTime": "08:15",
+          "endTime": "09:45",
+          "activity": "Kavala Liman Otoparkı'na (Parking Teloneiou) aracı bırakma, sahilde sabah yürüyüşü ve kahvaltı (Sizin için sıcak Kavala Bougatsa böreği, eşiniz için güvenli glutensiz kahvaltı)."
+        },
+        {
+          "startTime": "10:00",
+          "endTime": "11:30",
+          "activity": "Kavalalı Mehmet Ali Paşa Evi ve Heykeli (Panagia) Ziyareti",
+          "historyInfo": "1769'da Kavala'da doğan Kavalalı Mehmet Ali Paşa'nın doğduğu konaktır. Cumartesi 10:00-14:30 arası açıktır; sabah erken vardığınız için kapanma stresi olmadan rahatça gezebilirsiniz.",
+          "googleReviewNote": "Google Yorumu Notu (4.6/5): Manzarasının muazzam olduğu, iç müze girişinin ~5 € olduğu ve bahçedeki kafede kahve içmenin çok keyifli olduğu belirtilmiştir."
+        },
+        {
+          "startTime": "11:30",
+          "endTime": "13:30",
+          "activity": "İmarethane (İmaret), Halil Bey Külliyesi ve Kavala Su Kemeri (Kamares) Yürüyüş Turu",
+          "historyInfo": "18 kubbeli Osmanlı külliyesi İmarethane, Halil Bey Camii ve Kanuni Sultan Süleyman'ın onarttığı 270 metrelik Kamares Su Kemeri gezisi.",
+          "googleReviewNote": "Google Yorumu Notu (4.7/5): İmaret lüks bir özel otel olduğu için içine sadece kafesi/rezervasyon için girilebildiği, dış mimarisinin ve Panagia taş sokaklarının fotoğraf için harika olduğu vurgulanmıştır."
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "17:30",
+          "activity": "Atlas Boutique Suites otele giriş (check-in) ve odada öğleden sonra dinlenmesi."
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "21:00",
+          "activity": "Kavala limanında akşam yürüyüşü ve Savvas Seafood Restaurant'ta akşam yemeği."
+        }
+      ],
+      "attractions": [
+        "Kavalalı Mehmet Ali Paşa Evi ve Heykeli",
+        "İmarethane (İmaret)",
+        "Halil Bey Camii ve Külliyesi",
+        "Kavala Su Kemeri (Kamares)",
+        "Panagia Tarihi Yarımadası",
+        "Kavala Limanı ve Kordon Boyu"
+      ],
+      "roadSequence": [
+        "İstanbul",
+        "Keşan",
+        "İpsala Sınır Kapısı",
+        "Kipi",
+        "Dedeağaç (Alexandroupoli)",
+        "Gümülcine (Komotini)",
+        "Kavala"
+      ],
+      "routeNotes": [
+        "GECE MOLA STRATEJİSİ: Kipi sınırını gece 01:00-02:00 arasında geçtikten sonra A2 otoyolunda sadece 20 km ilerideki 'SEA Ardanio (EKO & Everest)' 24 saat açık dinlenme tesisinde uyku molası verin. Otoyol üzerindeki ışıksız/istasyonsuz 'WC' ceplerinde kesinlikle durmayın.",
+        "İpsala Sınır Kapısı'na girmeden hemen önce Türkiye tarafında deponuzu tamamen doldurun (Yunanistan'da benzin daha pahalıdır).",
+        "Yeşil Sigorta (Green Card), yeni tip çipli ehliyet ve ruhsatı torpido gözünde hazır bulundurun.",
+        "Kavala içinde araba kullanmayın; yollar çok dar ve dik yokuşludur. Liman otoparkına park edip yürümek en konforlu yoldur."
+      ],
+      "mealPlan": [
+        {
+          "mealType": "Akşam yemeği",
+          "timeRange": "18:30-20:30",
+          "location": "Kavala Limanı",
+          "strategy": "Taze ızgara deniz ürünleri ve zeytinyağlı güvenli akşam yemeği",
+          "recommendedFoods": [
+            "Psari Skaras (Izgara taze balık)",
+            "Htapodi Skaras (Izgara ahtapot)",
+            "Horiatiki (Yunan salatası - peksimetsiz)",
+            "Fava"
+          ],
+          "primaryOption": {
+            "venueName": "Savvas Seafood Restaurant",
+            "type": "Liman Deniz Ürünleri Restoranı",
+            "verificationStatus": "Verified",
+            "reason": "Liman sonunda marina manzaralı, taze ızgara balık ve ahtapotuyla ünlü, çölyak bilinci yüksek nezih restoran.",
+            "phone": "+30 251 022 4192",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Savvas+Kavala&query_place_id=ChIJofdIEWG7rhQRLZmr6bCsNwc",
+            "googleReviewNote": "Google Yorumları (4.6/5 - 1.500+ yorum): Porsiyonların çok doyurucu olduğu, yemek sonunda ücretsiz tatlı/meyve ikram edildiği (tatlı unlu olduğu için sadece siz yiyebilirsiniz), Cumartesi akşamı için mutlaka önceden rezervasyon veya erken gitmek gerektiği vurgulanmıştır."
+          },
+          "dietaryWarnings": [
+            "Garsona mutlaka SOS kartını gösterin ve balığın sadece ızgara (Skaras) olup una bulanmadığını teyit edin.",
+            "Kavala Kurabiyesi (Kourabiedes): Domuz yağı içermeyen 'Me voutyro galaktos' olanı tercih edilmeli; buğday unu içerdiğinden çölyaklı eş kesinlikle yememelidir."
+          ],
+          "sourceUrls": [
+            "https://www.google.com/maps/search/?api=1&query=Savvas+Kavala&query_place_id=ChIJofdIEWG7rhQRLZmr6bCsNwc"
+          ]
+        }
+      ],
+      "dailyPaymentNotes": {
+        "currenciesNeeded": [
+          "EUR"
+        ],
+        "cashRecommended": true,
+        "expectedPayments": [
+          "A2 Otoyol gişe ücretleri (yaklaşık 4–6 €)",
+          "Liman otopark ücreti",
+          "Mehmet Ali Paşa Evi müze girişi",
+          "Akşam yemeği (kredi kartı geçer)"
+        ],
+        "warnings": [
+          "Otoyol gişelerinde kredi kartı temassız çalışır ancak hızlı geçiş için yanınızda 1–2 Euro bozukluk bulundurmak pratiktir."
+        ]
+      },
+      "mapUrl": "https://www.google.com/maps/dir/%C4%B0stanbul,+T%C3%BCrkiye/%C4%B0psala+S%C4%B1n%C4%B1r+Kap%C4%B1s%C4%B1,+K%C3%B6pr%C3%BC,+%C4%B0psala%2FEdirne,+T%C3%BCrkiye/Atlas+Boutique+Suites,+%CE%9A%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CF%85+1,+%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1",
+      "husbandLocalFoodRecommendations": [
+        "Bougatsa me Krema veya Peynirli Börek (Sabah liman caddesindeki geleneksel börekçilerde - domuzsuz).",
+        "Kavala Kurabiyesi (Chrisanthidis veya yerel fırınlardan 'Me voutyro galaktos' - süt tereyağlı olanı).",
+        "Akşam yemeğinde Savvas'ta sizin için ayrı tabakta Saganaki (kızarmış peynir) ve Kalamari Tiganita (çıtır kalamar tava)."
+      ],
+      "recommendedFuelAndRestStops": [
+        {
+          "Order": 1,
+          "Name": "Shell & Opet İpsala Sınır Öncesi (Türkiye Tarafı Son Çıkış)",
+          "RouteSegment": "İstanbul → İpsala Sınır Kapısı (1. Gün Gece & 6. Gün Dönüş)",
+          "Highway": "D110 / E84 (Keşan - İpsala Yolu)",
+          "Description": "Sınır kapısına girmeden hemen önce (약 2-3 km) Türkiye tarafındaki son tam teşekküllü istasyonlardır. Yunanistan'da akaryakıt Euro bazında çok daha pahalı olduğu için deponuzu mutlaka burada ağzına kadar doldurun. Temiz tuvalet ve market mevcuttur.",
+          "Features": [
+            "24 Saat Açık",
+            "Uygun Fiyatlı TR Yakıtı",
+            "Market & WC",
+            "Güvenli Park"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=Shell+Ipsala+Edirne"
+        },
+        {
+          "Order": 2,
+          "Name": "ΣΕΑ Αρδανίου / Ορεστιάδας (SEA Ardanio - EKO & Everest)",
+          "RouteSegment": "Kipi Sınırı → Dedeağaç (1. Gün Gece Uyku Molası - Ana Öneri)",
+          "Highway": "A2 (Egnatia Odos - Batı ve Doğu Yönü Çift Taraflı)",
+          "Description": "Kipi sınır kapısını geçtikten sadece 20 km (15 dk) sonra A2 otoyolu üzerindeki İLK resmi dinlenme tesisidir. Gece 01:00-02:00 civarı sınırı geçtikten sonra yorgunsanız otoyoldan hiç çıkmadan buraya girip Everest kafenin ve pompaların tam karşısındaki aydınlık alanda güvenle uyuyabilirsiniz.",
+          "Features": [
+            "24 Saat Açık EKO İstasyonu",
+            "24 Saat Everest Kafe/Fırın",
+            "Tam Aydınlatmalı & Kameralı",
+            "Gece Uykusuna Uygun"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Ardaniou+EKO+Everest+Egnatia+Odos"
+        },
+        {
+          "Order": 3,
+          "Name": "ΣΕΑ Καβάλας / Μουσθένης (SEA Musson / Mustheni - Shell / EKO & Gregory's)",
+          "RouteSegment": "Kavala → Selanik (1. Gün Alternatif Gece Molası / 2. Gün Sabah Kahve & Yakıt)",
+          "Highway": "A2 (Egnatia Odos - Pangeo Dağı Eteği, Kavala'nın 25 km Batısı)",
+          "Description": "Doğu Makedonya ve Trakya bölgesinde A2 otoyolu üzerindeki en büyük resmi dinlenme tesisidir. Kavala'dan Selanik'e geçerken (veya 5. gün İskeçe'ye dönerken) temiz tuvalet, sıcak kahve ve yakıt için en güvenli duraktır.",
+          "Features": [
+            "24 Saat Açık",
+            "Büyük Kafe & Market",
+            "Ayrı Binek Araç Parkı",
+            "Yüksek Güvenlik"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Mousthenis+Kavala+Egnatia+Odos"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-10-25",
+      "weekday": "Pazar",
+      "title": "Kavala – Selanik (Metro Turu) – Perea",
+      "start": "Kavala",
+      "end": "Perea",
+      "overnight": "Perea",
+      "hotel": {
+        "name": "Atlantis ''Pleasure by the Sea''",
+        "reservationCode": "6741250915",
+        "location": "Pavlou Kountouriotou 51, Perea",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlantis+Pleasure+By+The+Sea+Perea&query_place_id=ChIJv7lV5ewVqBQRp1rKJ-32kgw",
+        "googleReviewNotes": {
+          "googleRating": "4.3 / 5",
+          "highlights": "Perea kordonunda denize sıfır konum, güler yüzlü personel, temiz odalar ve hemen önünde tavernalar.",
+          "warningsAndTips": [
+            "Google yorumlarında en çok vurgulanan konu: Otelin kendi özel otoparkı YOKTUR. Yaz ve hafta sonu günlerinde sahil caddesinde park yeri bulmak zor olabilmektedir; otelin 1-2 arka sokağındaki ücretsiz sokak aralarına park etmeniz önerilir.",
+            "Bazı odaların ve banyoların biraz küçük/eski tip olduğu, deniz manzaralı ön cephe odalarında ise hafta sonu akşamları sahil kafelerinden ses gelebileceği belirtilmiştir.",
+            "Selanik Havalimanı'na (SKG) yakın olduğu için uçak iniş-kalkış sesleri zaman zaman duyulabilmektedir."
+          ]
+        }
+      },
+      "estimatedDistanceKm": {
+        "min": 170,
+        "max": 185,
+        "exact": 175
+      },
+      "estimatedDrivingHoursIncludingNormalBorders": {
+        "min": 2.0,
+        "max": 2.5
+      },
+      "criticalAlert": "Selanik şehir merkezine aracınızla kesinlikle girmeyin. Çevre yolundan önce tepedeki Ano Poli (Yedikule) kalesine uğrayın, ardından Nea Elvetia Metro İstasyonu otoparkına aracınızı bırakıp merkeze metroyla inin. Yürüyüş Sintrivani'den başlayıp yokuş aşağı akacak ve Venizelou durağından metroyla otoparka dönülecektir.",
+      "parking": [
+        {
+          "title": "1. (μ) Nea Elvetia Metro İstasyonu Park & Ride Otoparkı (Ana Öneri)",
+          "type": "Metro Park & Ride",
+          "fee": "Ücretsiz veya Metro bileti entegreli günlük sembolik ~2,00 € – 3,00 € (Metro tek yön bilet: 0,60 €).",
+          "description": "Ana metro hattının doğu başlangıç istasyonu ve yeni 650 araçlık otopark alanı. Şehir trafiğine hiç girmeden çevre yolundan ulaşıp metroyla 12 dakikada merkeze (Sintrivani) inebilirsiniz.",
+          "googleReviewNote": "Yeni açılan istasyon olduğu için otopark alanı ferah ve güvenlidir; yabancı plakalı araçlar için şehir içi sokak parkına göre çok daha emniyetlidir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Metro+Station+Nea+Elvetia+Thessaloniki&query_place_id=ChIJ99sJPwA5qBQRm18YA2tev9c"
+        },
+        {
+          "title": "2. Yedikule (Heptapyrgion / Eptapyrgio) Kale Önü Açık Park Alanı",
+          "type": "Ücretsiz Açık Park",
+          "fee": "Ücretsiz",
+          "description": "Sabah Ano Poli (Yukarı Şehir) ziyaretinde kalenin hemen giriş kapısı önündeki meydanda yer alan ücretsiz park cepleridir.",
+          "googleReviewNote": "Sabah 10:00-10:30 civarı yer bulmak kolaydır; öğleden sonra tur otobüsleri ve yerel halk nedeniyle dolmaktadır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Heptapyrgion+Thessaloniki&query_place_id=ChIJV7rX5U44qBQROp_AVgN38yc"
+        },
+        {
+          "title": "3. Selanik Liman Otoparkı (Parking Port of Thessaloniki - Merkeze Araçla İnilirse Yedek)",
+          "type": "24 Saat Güvenlikli Ücretli Otopark",
+          "fee": "İlk saat 2,00 € – 3,00 €, Günlük tam gün ~12,00 € – 15,00 €.",
+          "description": "Eğer metro yerine aracınızla doğrudan sahil kordonuna (Aristotelous Meydanı yakınına) inmek isterseniz bariyerli ve kameralı en güvenli merkez otoparkıdır.",
+          "googleReviewNote": "Google yorumlarında Selanik merkezde Türk plakalı araçların cam kırılma/hırsızlık riskine karşı bırakılabilecek en güvenli 24 saat kameralı yer olduğu belirtilmiştir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Port+Thessaloniki"
+        },
+        {
+          "title": "4. Perea Otel Çevresi (Atlantis Hotel Arka Sokakları)",
+          "type": "Ücretsiz Sokak Parkı",
+          "fee": "Ücretsiz",
+          "description": "Perea'daki otelin önünde yer bulamazsanız, bir arka paralel cadde olan Ampelokipon veya Romilias sokakları boyunca ücretsiz park edebilirsiniz.",
+          "googleReviewNote": "Sahil caddesi Pazar akşamları kalabalık olduğu için arka sokaklar çok daha rahattır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlantis+Pleasure+By+The+Sea+Perea&query_place_id=ChIJv7lV5ewVqBQRp1rKJ-32kgw"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "startTime": "08:30",
+          "endTime": "10:15",
+          "activity": "Kavala'dan çıkış, A2 otoyolu ile Selanik çevre yoluna varış"
+        },
+        {
+          "startTime": "10:15",
+          "endTime": "11:15",
+          "activity": "Ano Poli (Yukarı Şehir) & Yedikule (Heptapyrgion / Επταπύργιο)",
+          "historyInfo": "1917 Büyük Selanik Yangını'ndan kurtulan tek tarihi Osmanlı-Bizans mahallesi olan Ano Poli'nin zirvesinde yer alır. Bizans döneminde akropol kalesi olarak inşa edilmiş, 1430'da II. Murad tarafından Selanik'in fethinden sonra İstanbul'daki Yedikule örnek alınarak 7 kuleli bir Osmanlı garnizonuna dönüştürülmüştür."
+        },
+        {
+          "startTime": "11:15",
+          "endTime": "11:45",
+          "activity": "Çevre yolundan Nea Elvetia Metro İstasyonu otoparkına geçiş ve metroya biniş",
+          "historyInfo": "Selanik şehir merkezinin dar sokakları ve yoğun trafiği bypass edilerek Sintrivani durağına hızlı ve konforlu ulaşım."
+        },
+        {
+          "startTime": "12:00",
+          "endTime": "13:00",
+          "activity": "Mustafa Kemal Atatürk Evi Müzesi (Sintrivani Metrodan 7 Dk Yürüyüş)",
+          "historyInfo": "1870 yılında Rodoslu Hacı Mehmet Vakfı tarafından inşa edilen üç katlı pembe köşk, Ali Rıza Efendi ve Zübeyde Hanım tarafından kiralanmış ve Gazi Mustafa Kemal Atatürk 1881 yılında bu evin ikinci katındaki ocaklı odada dünyaya gelmiştir. Türkiye Cumhuriyeti Selanik Başkonsolosluğu yerleşkesi içindedir ve giriş ücretsizdir.",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Giriş ücretsizdir ancak kapıda pasaport/kimlik kontrolü yapılır. Hafta sonu Türk tur grupları nedeniyle kalabalık olabildiği, bahçesinin çok duygusal ve bakımlı olduğu belirtilmiştir."
+        },
+        {
+          "startTime": "13:10",
+          "endTime": "14:15",
+          "activity": "Galerius Rotundası ve Galerius Kemeri (Kamara)",
+          "historyInfo": "Atatürk Evi'nden yokuş aşağı 6 dakika yürüyüşle ulaşılan Rotunda, MS 306 yılında Roma İmparatoru Galerius tarafından anıt mezar veya Zeus tapınağı olarak Roma'daki Pantheon'a benzer biçimde (6,3 m duvar kalınlığıyla) inşa edilmiştir. 1590'da Sultan Hortacî Süleyman Efendi Camii'ne çevrilmiş olup bahçesindeki minare Selanik'te ayakta kalan tek Osmanlı minaresidir. Kemeri (Kamara) ise Sasanilere karşı zaferi anlatan mermer kabartmalarla bezelidir."
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "15:45",
+          "activity": "Beyaz Kule (Λευκός Πύργος / Lefkos Pyrgos)",
+          "historyInfo": "Kemerden sahile doğru inildiğinde karşılayan 34 metre yüksekliğindeki silindirik kule, 1535 yılında Kanuni Sultan Süleyman döneminde Osmanlı liman savunmasının doğu burcu olarak (Mimar Sinan ekolüyle) inşa edilmiştir. Osmanlı döneminde 'Kanlı Kule' olarak anılan yapı, 1890'da beyaza boyanmasından sonra Beyaz Kule adını almıştır.",
+          "googleReviewNote": "Google Yorumu Notu (4.7/5): Kule içine çıkıp terastan Selanik'i izlemek kişi başı ~6 €'dur. İçerideki dik döner merdivenlerin dar olduğu ve asansör bulunmadığı yorumlarda hatırlatılmıştır."
+        },
+        {
+          "startTime": "16:00",
+          "endTime": "18:00",
+          "activity": "Aristotelous Meydanı & Venizelou Metro Açık Hava Müzesi",
+          "historyInfo": "Beyaz Kule'den kordon boyu yürünerek ulaşılan Aristotelous Meydanı, 1917 yangınından sonra Ernest Hébrard tarafından Bizans ve Neoklasik senteziyle tasarlanmıştır. Meydanın üstündeki Venizelou Metro İstasyonu ise metro kazılarında ortaya çıkarılan 1.600 yıllık Roma mermer ana caddesini (Decumanus Maximus) yerinde koruyan eşsiz bir açık hava müzesidir.",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Metro istasyonu içindeki antik Roma caddesi (Decumanus Maximus) turnikelerden geçmeden ücretsiz olarak üst platformdan izlenebilmektedir."
+        },
+        {
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "activity": "Venizelou'dan metro ile Nea Elvetia'ya dönüş, aracı alıp Perea sahilindeki Atlantis Hotel'e geçiş",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Metro istasyonu içindeki antik Roma caddesi (Decumanus Maximus) turnikelerden geçmeden ücretsiz olarak üst platformdan izlenebilmektedir."
+        }
+      ],
+      "attractions": [
+        "Ano Poli (Tarihi Yukarı Şehir)",
+        "Heptapyrgion (Yedikule Kalesi)",
+        "Mustafa Kemal Atatürk Evi Müzesi",
+        "Galerius Rotundası (Sultan Hortacı Camii)",
+        "Galerius Zafer Kemeri (Kamara)",
+        "Beyaz Kule (Lefkos Pyrgos)",
+        "Nikis Sahil Kordonu",
+        "Aristotelous Meydanı",
+        "Venizelou Metro Arkeoloji Müzesi (Decumanus Maximus)"
+      ],
+      "roadSequence": [
+        "Kavala",
+        "A2 Egnatia Odos",
+        "Selanik Çevre Yolu",
+        "Ano Poli",
+        "Nea Elvetia Metro",
+        "Perea Sahili"
+      ],
+      "routeNotes": [
+        "Ano Poli tepe bir mahalledir; kaleye çıkış yolu geniştir ancak kaleden sonra şehir merkezine inen dik sokaklara girmeyip çevre yolundan Nea Elvetia metrosuna geçilmelidir.",
+        "Selanik metrosunda bilet otomatları temassız kredi kartı ve nakit kabul etmektedir.",
+        "Perea, Selanik havalimanı ve sahil aksında huzurlu bir sayfiye kasabasıdır; otelinizin hemen önünde sahil yürüyüş yolu vardır."
+      ],
+      "mealPlan": [
+        {
+          "mealType": "Öğle yemeği",
+          "timeRange": "13:30-15:00",
+          "location": "Selanik Merkez (Aristotelous / Kordon)",
+          "strategy": "Merkezde güvenli glutensiz deniz ürünleri veya glutensiz pizza",
+          "recommendedFoods": [
+            "Psari Skaras (Taze ızgara balık)",
+            "Deniz mahsullü glutensiz tabaklar",
+            "Glutensiz pizza"
+          ],
+          "primaryOption": {
+            "venueName": "7 Thalasses",
+            "type": "Prestijli Deniz Ürünleri Restoranı",
+            "verificationStatus": "Verified",
+            "reason": "Aristotelous Meydanı'na yürüme mesafesinde, Selanik'in en seçkin deniz ürünleri restoranı. Çölyak konusunda eğitimli mutfağı ve taze balıklarıyla en güvenli öğle yemeği adresi.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=7+Thalasses+Thessaloniki&query_place_id=ChIJQ1mkAwk5qBQRZ2YDo3HUhJQ",
+            "googleReviewNote": "Google Yorumları (4.6/5 - 2.800+ yorum): Deniz ürünlerinin çok taze ve üst segment olduğu, garsonların alerjenler/çölyak konusunda çok bilgili olduğu, Pazar öğlen saatleri için rezervasyon yapılmasının şiddetle önerildiği belirtilmiştir."
+          },
+          "alternativeOptions": [
+            {
+              "venueName": "Basilico",
+              "type": "Sahil Kordonu - Nikis Bulvarı",
+              "verificationStatus": "Verified",
+              "reason": "Beyaz Kule ile Aristotelous arasında sahil kordonunda özel glutensiz pizza ve deniz ürünlü makarna alternatifleri sunar.",
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=Basilico+Thessaloniki&query_place_id=ChIJK1zTLAQ5qBQR8b-rPi8co3M"
+            }
+          ]
+        },
+        {
+          "mealType": "Akşam yemeği",
+          "timeRange": "19:30-21:30",
+          "location": "Perea Sahili veya Kalamaria",
+          "strategy": "Sahilde taze balık tavernası veya çölyak odaklı Akdeniz mutfağı",
+          "recommendedFoods": [
+            "Izgara ahtapot",
+            "Çipura / levrek ızgara",
+            "Mantar ve sebze tabakları"
+          ],
+          "primaryOption": {
+            "venueName": "To Manitari",
+            "type": "Akdeniz & Çölyak Dostu Restoran (Kalamaria)",
+            "verificationStatus": "Verified",
+            "reason": "Perea yolunda Kalamaria mevkiinde, Selanik'te çölyak hastalarının 1 numaralı favorisi olan gurme Akdeniz restoranı.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=To+Manitari+Thessaloniki&query_place_id=ChIJ4YlzWdQ-qBQRu1cFq0ey4rg",
+            "googleReviewNote": "Google Yorumları (4.6/5 - 2.200+ yorum): To Manitari'nin ayrı bir glutensiz menüsü ve çölyak protokolü olduğu, porsiyonların büyük ve şık olduğu yorumlarda özellikle övülmektedir."
+          },
+          "alternativeOptions": [
+            {
+              "venueName": "Taverna Thalassopoulia",
+              "type": "Perea Sahili Taverna",
+              "verificationStatus": "Verified",
+              "reason": "Perea'daki otelinizle aynı cadde üzerinde (No: 51), denize sıfır taze balık tavernası; yürüme mesafesindedir.",
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taverna+Thalassopoulia+Perea&query_place_id=ChIJ58tmIukVqBQRsaCsDIMrUXs"
+            }
+          ]
+        }
+      ],
+      "dailyPaymentNotes": {
+        "currenciesNeeded": [
+          "EUR"
+        ],
+        "cashRecommended": false,
+        "expectedPayments": [
+          "A2 gişeleri (yaklaşık 2–4 €)",
+          "Nea Elvetia metro otoparkı & metro biletleri (kişi başı ~0.90–1.20 €)",
+          "Yeme içme (kart geçer)"
+        ],
+        "warnings": [
+          "Selanik metrosunda temassız kredi kartı doğrudan turnikelerde de kullanılabilmektedir."
+        ]
+      },
+      "mapUrl": "https://www.google.com/maps/dir/Atlas+Boutique+Suites,+%CE%9A%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CF%85+1,+%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/(%CE%BC)+Metro+Station+%22Nea+Elvetia%22,+Michail+Psellou,+Thessaloniki,+Greece/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan",
+      "husbandLocalFoodRecommendations": [
+        "Trigona Panorama (Aristotelous Meydanı yakınındaki Elenidis veya Terkenlis pastanesinden taze kremalı çıtır üçgen tatlı).",
+        "Terkenlis Fırını'ndan Kestaneli veya Çikolatalı Tsoureki (Aristotelous Meydanı köşesinde).",
+        "Selanik Simidi (Koulouri) ve soğuk Frappe / Freddo Espresso.",
+        "Bougatsa Giannis veya Bantis'te kıymalı (%100 dana teyitli) veya peynirli sıcak Selanik böreği."
+      ],
+      "recommendedFuelAndRestStops": [
+        {
+          "Order": 3,
+          "Name": "ΣΕΑ Καβάλας / Μουσθένης (SEA Musson / Mustheni - Shell / EKO & Gregory's)",
+          "RouteSegment": "Kavala → Selanik (1. Gün Alternatif Gece Molası / 2. Gün Sabah Kahve & Yakıt)",
+          "Highway": "A2 (Egnatia Odos - Pangeo Dağı Eteği, Kavala'nın 25 km Batısı)",
+          "Description": "Doğu Makedonya ve Trakya bölgesinde A2 otoyolu üzerindeki en büyük resmi dinlenme tesisidir. Kavala'dan Selanik'e geçerken (veya 5. gün İskeçe'ye dönerken) temiz tuvalet, sıcak kahve ve yakıt için en güvenli duraktır.",
+          "Features": [
+            "24 Saat Açık",
+            "Büyük Kafe & Market",
+            "Ayrı Binek Araç Parkı",
+            "Yüksek Güvenlik"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Mousthenis+Kavala+Egnatia+Odos"
+        },
+        {
+          "Order": 4,
+          "Name": "Shell / EKO Thermi - Perea & Halkidiki Yolu (A24 Bağlantısı)",
+          "RouteSegment": "Selanik → Perea / Afytos (2. ve 3. Gün)",
+          "Highway": "EO16 / A24 (Selanik - Nea Moudania Yolu Üzeri, IKEA & Havalimanı Yakını)",
+          "Description": "A24 Halkidiki yolu üzerinde otoyol tipi dev tesis bulunmaz; ancak Perea kavşağı ile Havalimanı (Thermi) arasındaki bu büyük istasyonlar 24 saat açıktır, geniş markete ve lastik hava/su ünitelerine sahiptir.",
+          "Features": [
+            "24 Saat Açık",
+            "Hava/Su İstasyonu",
+            "Geniş Market",
+            "Afytos Öncesi İdeal Durak"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=Shell+Thermi+Thessaloniki+Moudania"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-10-26",
+      "weekday": "Pazartesi",
+      "title": "Perea – Afytos (Halkidiki) – Perea",
+      "start": "Perea",
+      "end": "Perea",
+      "overnight": "Perea",
+      "hotel": {
+        "name": "Atlantis ''Pleasure by the Sea''",
+        "reservationCode": "6741250915",
+        "location": "Pavlou Kountouriotou 51, Perea",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlantis+Pleasure+By+The+Sea+Perea&query_place_id=ChIJv7lV5ewVqBQRp1rKJ-32kgw",
+        "googleReviewNotes": {
+          "googleRating": "4.3 / 5",
+          "highlights": "Perea kordonunda denize sıfır konum, güler yüzlü personel, temiz odalar ve hemen önünde tavernalar.",
+          "warningsAndTips": [
+            "Google yorumlarında en çok vurgulanan konu: Otelin kendi özel otoparkı YOKTUR. Yaz ve hafta sonu günlerinde sahil caddesinde park yeri bulmak zor olabilmektedir; otelin 1-2 arka sokağındaki ücretsiz sokak aralarına park etmeniz önerilir.",
+            "Bazı odaların ve banyoların biraz küçük/eski tip olduğu, deniz manzaralı ön cephe odalarında ise hafta sonu akşamları sahil kafelerinden ses gelebileceği belirtilmiştir.",
+            "Selanik Havalimanı'na (SKG) yakın olduğu için uçak iniş-kalkış sesleri zaman zaman duyulabilmektedir."
+          ]
+        }
+      },
+      "estimatedDistanceKm": {
+        "min": 140,
+        "max": 160,
+        "exact": 150
+      },
+      "estimatedDrivingHoursIncludingNormalBorders": {
+        "min": 1.5,
+        "max": 2.0
+      },
+      "criticalAlert": "Foodie's Art Gluten Free Bakery Selanik'te Pazartesi günleri 08:30–13:00 arası açıktır (Pazar kapalıdır). Sabah Afytos'a geçmeden önce eşiniz için glutensiz bougatsa, ekmek ve atıştırmalık stoklamak için mükemmel fırsattır!",
+      "parking": [
+        {
+          "title": "1. Free Parking 1 Afytos (Köy Girişi Belediye Açık Otoparkı - Ana Öneri)",
+          "type": "Ücretsiz Açık Otopark",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Afytos'un taş döşeli dar sokaklarına girmeden hemen köy girişinde yer alan geniş, düz ve ücretsiz belediye otopark alanıdır.",
+          "googleReviewNote": "Yorumlarda Ekim ayında tamamen boş ve çok rahat olduğu, köy meydanına 3 dakika düz yürüyüş mesafesinde bulunduğu belirtilmiştir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Free+Parking+1+Afytos&query_place_id=ChIJxUz6KgArphQRvB6CX4_D8Bg"
+        },
+        {
+          "title": "2. Afytos Güney Girişi / Mezarlık Yanı Açık Park Alanı (Free Parking 2)",
+          "type": "Ücretsiz Açık Otopark",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Falez restoranlarına (Thea Thalassa ve Soboro) en yakın ikinci ücretsiz açık park noktasıdır.",
+          "googleReviewNote": "Restoranlara ve Vrachos seyir terasına sadece 150 metre mesafededir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Afytos+Parking"
+        },
+        {
+          "title": "3. Afytos Plaj Yolu (Liosi / Varkes Beach) Sahil Park Cepleri",
+          "type": "Ücretsiz Sahil Parkı",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Eğer falezlerden aşağıya deniz kenarına araçla inmek isterseniz sahil boyunca ücretsiz park cepleri mevcuttur.",
+          "googleReviewNote": "İniş yolu biraz dik ve virajlıdır; yukarıdaki ücretsiz otoparka bırakıp falezlerden manzarayı izlemek çok daha keyiflidir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Varkes+Beach+Afytos"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "startTime": "08:45",
+          "endTime": "09:45",
+          "activity": "Foodie's Art Gluten Free Bakery Ziyareti",
+          "historyInfo": "Selanik'te çölyak sertifikalı %100 glutensiz fırın. Eşiniz için geleneksel Yunan böreği (bougatsa), taze glutensiz ekmek ve kurabiye stoğu temin edilir.",
+          "googleReviewNote": "Google Yorumu Notu (4.9/5 - 600+ yorum): Çölyak hastaları için tam bir cennet olduğu, %100 glutensiz ortamda üretilen peynirli/kremalı Bougatsa ve ıspanaklı böreklerin normal börekten farksız olduğu belirtilmiştir. Öğlene doğru ürünler tükendiği için sabah 09:00 gibi gidilmelidir."
+        },
+        {
+          "startTime": "09:45",
+          "endTime": "10:45",
+          "activity": "A24 bölünmüş otoyolu üzerinden Kassandra yarımadasına konforlu sürüş ve Afytos'a varış",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Ekim sonunda bazı yazlık plaj barlarının kapalı olabileceği, ancak falez üstündeki ana restoranların ve taş sokakların çok sakin, romantik ve fotoğraf çekmek için kusursuz olduğu belirtilmiştir."
+        },
+        {
+          "startTime": "10:45",
+          "endTime": "16:00",
+          "activity": "Afytos Taş Meydanı, Folklor Müzesi (Aletras Konağı) ve Falez Yürüyüşü",
+          "historyInfo": "MÖ 3000'den beri yerleşim gören antik Aphytis kenti üzerine kurulu olan Afytos, Aristo'nun da yazılarında bahsettiği zengin bir Makedon limanıydı. Köyün tamamı yerel gözenekli kireçtaşından (porolithos) inşa edilmiş 19. yüzyıl taş konaklarından oluşur. Meydandaki 1859 tarihli Agios Dimitrios Kilisesi ve 1889 yapımı Aletras Konağı mimarisiyle dikkat çeker. Köyün deniz tarafındaki sarp kayalık yürüyüş yolu ('Vrachos'), Ege Denizi'ni ve Toroneos Körfezi'ni kuşbakışı izleyen doğal terastır.",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Ekim sonunda bazı yazlık plaj barlarının kapalı olabileceği, ancak falez üstündeki ana restoranların ve taş sokakların çok sakin, romantik ve fotoğraf çekmek için kusursuz olduğu belirtilmiştir."
+        },
+        {
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "activity": "Afytos'tan Perea'ya dönüş, sahilde dinlenme ve otel çevresinde akşam programı",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Ekim sonunda bazı yazlık plaj barlarının kapalı olabileceği, ancak falez üstündeki ana restoranların ve taş sokakların çok sakin, romantik ve fotoğraf çekmek için kusursuz olduğu belirtilmiştir."
+        }
+      ],
+      "attractions": [
+        "Foodie's Art Gluten Free Bakery",
+        "Afytos Tarihi Taş Köyü",
+        "Agios Dimitrios Kilisesi (1859)",
+        "Afytos Folklor Müzesi (Aletras Konağı)",
+        "Vrachos Falez Yürüyüş Yolu (Halkidiki'nin Balkonu)",
+        "Kassandra Sahil Manzaraları"
+      ],
+      "roadSequence": [
+        "Perea",
+        "Selanik Doğu Aksı",
+        "A24 Otoyolu",
+        "Nea Moudania",
+        "Kassandra Köprüsü",
+        "Afytos",
+        "Perea"
+      ],
+      "routeNotes": [
+        "Perea'da konakladığınız için Selanik şehir merkezine girmeden A24 otoyoluna direkt bağlanırsınız.",
+        "A24 otoyolu bölünmüş ve ücretsizdir (gişe bulunmaz).",
+        "Afytos sokakları Arnavut kaldırımı taştır; rahat yürüyüş ayakkabısı giyilmesi önerilir."
+      ],
+      "mealPlan": [
+        {
+          "mealType": "Öğle yemeği / Kafe",
+          "timeRange": "12:30-14:30",
+          "location": "Afytos Falezleri",
+          "strategy": "Uçurum kenarında muazzam deniz manzaralı ızgara deniz ürünleri",
+          "recommendedFoods": [
+            "Izgara çipura / levrek",
+            "Ladolemono soslu ahtapot",
+            "Yunan salatası (ekmeksiz)"
+          ],
+          "primaryOption": {
+            "venueName": "Thea Thalassa",
+            "type": "Falez Restoranı",
+            "verificationStatus": "Verified",
+            "reason": "Afytos'un ünlü falezleri üzerinde, Toroneos Körfezi'ne tepeden bakan, taze balık ve ahtapot servisi sunan manzaralı restoran.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thea+Thalassa+Afytos&query_place_id=ChIJHdf333sqphQRhgFyGidQpdc",
+            "googleReviewNote": "Google Yorumları (4.4/5 - 2.000+ yorum): Manzarası Halkidiki'nin en iyisi olarak nitelendirilir. Deniz kenarı masalar için öğlen erken saatte gidilmesi önerilir. Ekim sonu sezon kapanışı nedeniyle gitmeden önce Google Maps üzerinden açık olduğu teyit edilmeli, kapalıysa hemen yanındaki 'Sousourada' veya 'To Palio Rementzo' tercih edilmelidir."
+          }
+        }
+      ],
+      "dailyPaymentNotes": {
+        "currenciesNeeded": [
+          "EUR"
+        ],
+        "cashRecommended": false,
+        "expectedPayments": [
+          "Fırın alışverişi (kart geçer)",
+          "Folklor müzesi girişi (sembolik ~2–3 € nakit)",
+          "Öğle yemeği (kart geçer)"
+        ],
+        "warnings": [
+          "A24 otoyolunda gişe ücreti yoktur."
+        ]
+      },
+      "mapUrl": "https://www.google.com/maps/dir/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan/Foodies+Art+Gluten+Free+Bakery,+Thessaloniki/Free+Parking+1+Afytos,+4C3M%2B76,+Kassandra,+Greece/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan",
+      "husbandLocalFoodRecommendations": [
+        "Halkidiki Yeşil Zeytini (Izgara veya baharatlı marine edilmiş iri Halkidiki zeytinleri).",
+        "Susamlı ve Ballı Kızarmış Feta Peyniri (Feta me Meli - falez restoranlarında sizin için harika bir ara sıcak).",
+        "Geleneksel Cevizli veya İncirli Kaşık Tatlısı (Glyko tou Koutaliou - süzme Yunan yoğurdu üzerinde)."
+      ],
+      "recommendedFuelAndRestStops": [
+        {
+          "Order": 4,
+          "Name": "Shell / EKO Thermi - Perea & Halkidiki Yolu (A24 Bağlantısı)",
+          "RouteSegment": "Selanik → Perea / Afytos (2. ve 3. Gün)",
+          "Highway": "EO16 / A24 (Selanik - Nea Moudania Yolu Üzeri, IKEA & Havalimanı Yakını)",
+          "Description": "A24 Halkidiki yolu üzerinde otoyol tipi dev tesis bulunmaz; ancak Perea kavşağı ile Havalimanı (Thermi) arasındaki bu büyük istasyonlar 24 saat açıktır, geniş markete ve lastik hava/su ünitelerine sahiptir.",
+          "Features": [
+            "24 Saat Açık",
+            "Hava/Su İstasyonu",
+            "Geniş Market",
+            "Afytos Öncesi İdeal Durak"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=Shell+Thermi+Thessaloniki+Moudania"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-10-27",
+      "weekday": "Salı",
+      "title": "Perea – Vergina (Aigai) – Kalambaka (Meteora)",
+      "start": "Perea",
+      "end": "Kalambaka",
+      "overnight": "Kalambaka",
+      "hotel": {
+        "name": "Hotel Kaikis",
+        "reservationCode": "5738903346",
+        "location": "Trikalon 146, Kalampaka",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Kaikis+Kalambaka&query_place_id=ChIJM0O5fsgPWRMRdonAkG5b5-A",
+        "googleReviewNotes": {
+          "googleRating": "4.6 / 5",
+          "highlights": "Fiyat/performans açısından çok başarılı, tertemiz aile işletmesi, Meteora kayalıklarına bakan balkonlu odalar.",
+          "warningsAndTips": [
+            "Otel Kalambaka ana caddesinin (Trikalon) sonunda, merkeze yürüyerek 12-15 dakika mesafededir (arabayla 2 dk). Otelin hemen önünde ve yanında ücretsiz park alanı mevcuttur.",
+            "Google yorumlarında kahvaltısının standart/kısıtlı olduğu belirtilmiştir; çölyak hastası eşiniz için Selanik Foodie's Art fırınından aldığınız glutensiz ürünleri yanınızda bulundurmanız çok önemlidir.",
+            "Oda duvarlarının biraz ince olduğu ve yan odalardan ses geçebildiği not düşülmüştür."
+          ]
+        }
+      },
+      "estimatedDistanceKm": {
+        "min": 240,
+        "max": 260,
+        "exact": 250
+      },
+      "estimatedDrivingHoursIncludingNormalBorders": {
+        "min": 3.0,
+        "max": 3.5
+      },
+      "criticalAlert": "27 Ekim Salı günü Vergina Kraliyet Mezarları Müzesi saat 12:00'de açılır (Perea'dan 10:00'da çıkış tam açılış saatinde kapıda olmanızı sağlar). Meteora'da ise en büyük manastır olan Büyük Meteoron Salı günleri kapalıdır; bu nedenle öğleden sonra açık olan Varlaam (16:00'ya kadar) ve Roussanou (16:30'a kadar) manastırlarını gezeceğiz.",
+      "parking": [
+        {
+          "title": "1. Vergina (Aigai) Kraliyet Mezarları Müzesi Resmi Otoparkı",
+          "type": "Ücretsiz Müze Otoparkı",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Kraliyet Mezarları (Royal Tombs) girişinin 100 metre önünde yer alan ağaçlık, düz ve ücretsiz resmi otoparktır.",
+          "googleReviewNote": "Yeni yapılan Polisentrik Müze binası ile Kraliyet Mezarları tümülüsü birbirinden 1.5 km ayrıdır; vaktinizi iyi kullanmak için doğrudan 'Royal Tombs of Aigai' otoparkına park edin.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Museum+of+the+Royal+Tombs+of+Aigai&query_place_id=ChIJKStsygjyVxMRtxRoIGBCgJI"
+        },
+        {
+          "title": "2. Varlaam & Roussanou Manastırları Önü Cep Otoparkları (Meteora)",
+          "type": "Ücretsiz Manastır Otoparkı",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Meteora asfalt dağ yolu üzerinde her manastırın giriş kapısı önünde ücretsiz park alanları ve seyir terası cepleri bulunur.",
+          "googleReviewNote": "Salı günü Büyük Meteoron kapalı olduğu için ziyaretçiler Varlaam önünde yoğunlaşır; öğleden sonra 15:00 civarı tur otobüsleri ayrıldığı için kapı önünde rahatlıkla yer bulunur.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Monastery+of+Varlaam+Meteora&query_place_id=ChIJmUP3fK8PWRMRyF8qX4Npg9Q"
+        },
+        {
+          "title": "3. Kalambaka Hotel Kaikis Önü & Belediye Meydan Otoparkı",
+          "type": "Ücretsiz Otel & Kasaba Otoparkı",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Hem otelinizin (Hotel Kaikis) kapı önü hem de akşam yemeği için ineceğiniz Kalambaka merkez caddesi arka sokakları tamamen ücretsizdir.",
+          "googleReviewNote": "Kalambaka'da park sorunu hiç yaşanmamaktadır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Kaikis+Kalambaka&query_place_id=ChIJM0O5fsgPWRMRdonAkG5b5-A"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "startTime": "10:00",
+          "endTime": "11:45",
+          "activity": "Perea'dan hareket, A1 ve A2 otoyolları üzerinden Vergina'ya sürüş",
+          "googleReviewNote": "Google Yorumu Notu (4.9/5 - 11.000+ yorum): Yunanistan'ın en etkileyici müzesi olarak puanlanmıştır! İçerisi karanlık ve sessiz bir yer altı tümülüsüdür; mezarların fotoğrafını çekmek kesinlikle yasaktır ve görevliler çok sıkıdır. Salı günleri saat 12:00'de açılır (Giriş ~15 €)."
+        },
+        {
+          "startTime": "12:00",
+          "endTime": "13:30",
+          "activity": "Vergina (Aigai) Kraliyet Mezarları Müzesi",
+          "historyInfo": "UNESCO Dünya Mirası Listesi'nde yer alan Aigai, Antik Makedonya Krallığı'nın ilk başkentiydi. 1977 yılında arkeolog Manolis Andronikos tarafından keşfedilen dev toprak tümülüsün altında, Büyük İskender'in babası Kral II. Filip'in (MÖ 336) hiç soyulmamış anıt mezarı ve IV. İskender'in mezarı bulunmuştur. Müze bizzat yer altı mezarlarının içine inşa edilmiştir; II. Filip'in saf altından meşe yapraklı kraliyet çelengi ve 16 ışınlı Vergina Güneşi işlemeli altın kemik kutusu (larnaks) dünya arkeoloji tarihinin en büyük şaheserlerindendir.",
+          "googleReviewNote": "Google Yorumu Notu (4.9/5 - 11.000+ yorum): Yunanistan'ın en etkileyici müzesi olarak puanlanmıştır! İçerisi karanlık ve sessiz bir yer altı tümülüsüdür; mezarların fotoğrafını çekmek kesinlikle yasaktır ve görevliler çok sıkıdır. Salı günleri saat 12:00'de açılır (Giriş ~15 €)."
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "15:00",
+          "activity": "A2 Egnatia Odos üzerinden Grevena dağ geçişi ile Kalambaka'ya varış (yeni otoyol)"
+        },
+        {
+          "startTime": "15:15",
+          "endTime": "16:45",
+          "activity": "Meteora: Varlaam Manastırı & Roussanou Manastırı Gezisi",
+          "historyInfo": "60 milyon yıl önce iç denizin çekilmesiyle oluşan 400 metrelik devasa kumtaşı sütunların tepesine, 14. yüzyılda inzivaya çekilen keşişler tarafından manastırlar inşa edilmiştir. 1517'de kurulan Varlaam Manastırı'na yüzyıllarca sadece 373 metrelik uçurumdan sarkıtılan ağlar ve halat merdivenlerle çıkılabilmiştir; içerisindeki eski halat vinç kulesi ve 1548 tarihli Bizans freskleri bugün hala görülebilir. Roussanou Manastırı ise daracık kaya sütununun zirvesine oturtulmuş en fotojenik yapıdır.",
+          "googleReviewNote": "Google Yorumu Notu (4.9/5): Manastırlara çıkarken ~100-150 basamak bulunur. Kadınların pantolonla girmesi yasaktır; pantolon üzerine bilekleri örten etek/şal bağlanması zorunludur (girişte ücretsiz/küçük ücretle şal verilir). Giriş kişi başı 3 € SADECE NAKİT kabul edilir!"
+        },
+        {
+          "startTime": "16:45",
+          "endTime": "17:30",
+          "activity": "Büyük Meteoron Manastırı dış seyir ve panoramik kayalık fotoğraf molası"
+        },
+        {
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "activity": "Kalambaka merkezindeki Hotel Kaikis'e yerleşme ve akşam yemeği hazırlığı"
+        }
+      ],
+      "attractions": [
+        "Vergina (Aigai) Kraliyet Mezarları Müzesi (Kral II. Filip Mezarı)",
+        "Altın Larnaks ve Vergina Güneşi Çelengi",
+        "Meteora Dev Kumtaşı Kayalıkları",
+        "Varlaam Manastırı",
+        "Roussanou Manastırı",
+        "Büyük Meteoron (Dış Seyir Noktası)",
+        "Kalambaka Kasaba Merkezi"
+      ],
+      "roadSequence": [
+        "Perea",
+        "A1 Otoyolu",
+        "Veria",
+        "Vergina (Aigai)",
+        "A2 Otoyolu (Grevena)",
+        "Kalambaka (Meteora)"
+      ],
+      "routeNotes": [
+        "Vergina'dan Kalambaka'ya giderken dağ yollarına girmeyin; A2 Egnatia Odos üzerinden Grevena ayrımını takip eden bölünmüş otoyol en güvenli ve hızlı güzergahtır.",
+        "Meteora manastırlarında diz ve omuzları örten kıyafet zorunluluğu vardır (girişte hanımlara şal/etek verilmektedir).",
+        "Manastır giriş ücretleri kişi başı 3 €'dur ve nakit ödeme tercih edilir."
+      ],
+      "mealPlan": [
+        {
+          "mealType": "Akşam yemeği",
+          "timeRange": "19:00-21:00",
+          "location": "Kalambaka (Meteora Kayalıkları Eteği)",
+          "strategy": "Geleneksel fırın kuzu, ızgara tavuk ve zeytinyağlı tencere yemekleri",
+          "recommendedFoods": [
+            "Fırında kuzu (Arni sto fourno)",
+            "Izgara tavuk şiş",
+            "Fava ve zeytinyağlı taze fasulye / sebzeler"
+          ],
+          "primaryOption": {
+            "venueName": "Yamas Taverna Restaurant",
+            "type": "Geleneksel Taverna",
+            "verificationStatus": "Verified",
+            "reason": "Meteora kayalıklarının tam altında, uluslararası çölyak rehberlerinde (Atly vb.) glutensiz seçenekleriyle öne çıkan aile tavernası. Fırında kuzu, ızgara tavuk ve zeytinyağlı sebze yemekleri mevcuttur.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamas+Taverna+Kalambaka&query_place_id=ChIJV9cn9MwPWRMRwtel3BLde8M",
+            "googleReviewNote": "Google Yorumları (4.7/5 - 1.400+ yorum): Yamas Taverna'da personelin çok misafirperver olduğu, glutensiz yemekleri ayrı kaplarda özenle hazırladıkları ve fırın kuzusunun lokum gibi olduğu belirtilmiştir."
+          },
+          "alternativeOptions": [
+            {
+              "venueName": "Restaurant Meteora Gkertsou Family",
+              "type": "Tarihi Aile Restoranı",
+              "verificationStatus": "Verified",
+              "reason": "1925'ten beri hizmet veren tarihi aile restoranı; ayrı bir zeytinyağlı sebze/vegan menüsü ve taze et/tavuk yemekleri bulunur.",
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant+Meteora+Gkertsou+Family&query_place_id=ChIJZ-YdJcwPWRMRAIJBG8I77UI"
+            }
+          ]
+        }
+      ],
+      "dailyPaymentNotes": {
+        "currenciesNeeded": [
+          "EUR"
+        ],
+        "cashRecommended": true,
+        "expectedPayments": [
+          "A2 gişe ücretleri (yaklaşık 3–5 €)",
+          "Vergina Kraliyet Mezarları girişi (~15 € kişi başı, kart geçer)",
+          "Meteora manastır girişleri (manastır başı 3 € nakit)",
+          "Akşam yemeği"
+        ],
+        "warnings": [
+          "Meteora manastır gişelerinde nakit para bulundurmak işlem süresini kısaltır."
+        ]
+      },
+      "mapUrl": "https://www.google.com/maps/dir/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan/Aigai+Kraliyet+Mezarlar%C4%B1+M%C3%BCzesi,+Vergina,+Yunanistan/Hotel+Kaikis,+Trikalon+146,+Kalampaka,+Yunanistan",
+      "husbandLocalFoodRecommendations": [
+        "Tesalya Usulü Geleneksel Peynirli/Ispanaklı El Açması Börek (Skopelitiki veya Batsaria Pita - Kalambaka tavernalarında).",
+        "Galaktoboureko (Şerbetli, içi bol irmik muhallebili fırın tatlısı - akşam yemeği sonunda).",
+        "Fırında Kuzu İncik (Arni Kleftiko - kağıtta sebzeler ve yerel peynirle ağır ateşte pişmiş)."
+      ],
+      "recommendedFuelAndRestStops": [
+        {
+          "Order": 5,
+          "Name": "ΣΕΑ Πλατάνου / Αλεξάνδρειας (SEA Platanos - BP / EKO & Everest)",
+          "RouteSegment": "Perea (Selanik) → Vergina (4. Gün Sabah)",
+          "Highway": "A2 (Egnatia Odos - Veria / Vergina Öncesi)",
+          "Description": "Selanik'ten Vergina ve Meteora yönüne giderken A2 otoyolu üzerindeki en donanımlı tesistir. Vergina Kraliyet Mezarları'na inmeden önce (약 20 dk mesafede) tuvalet ve kahve molası için mükemmeldir.",
+          "Features": [
+            "24 Saat Açık",
+            "Everest Kafe & Market",
+            "Geniş Otopark",
+            "Temiz WC"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Platanou+Egnatia+Odos+Alexandria"
+        },
+        {
+          "Order": 6,
+          "Name": "ΣΕΑ Γρεβενών / Σιάτιστας (SEA Grevena - EKO / Avin)",
+          "RouteSegment": "Vergina → Kalambaka / Meteora (4. Gün Öğleden Sonra)",
+          "Highway": "A2 (Egnatia Odos - Kalambaka/Trikala E65 Otoyol Ayrımı Öncesi)",
+          "Description": "Vergina'dan sonra Pindus dağ geçitlerini aşarken Kalambaka (Meteora) ayrımına girmeden önceki son resmi otoyol tesisidir. Dağ etabına inmeden önce yakıt kontrolü ve dinlenme için mutlaka değerlendirilmelidir.",
+          "Features": [
+            "24 Saat Açık",
+            "Dağ Geçidi Öncesi Son Tesis",
+            "Market & Kafe",
+            "Güvenli Park"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Grevenon+Egnatia+Odos"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-10-28",
+      "weekday": "Çarşamba",
+      "title": "Kalambaka – Dion – İskeçe – Mandra (Ohi Günü)",
+      "start": "Kalambaka",
+      "end": "Mandra",
+      "overnight": "Mandra (Avdira)",
+      "hotel": {
+        "name": "Petrinos Lofos",
+        "reservationCode": "6266974331",
+        "location": "Mandra, 67061 Avdira",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Petrinos+Lofos+Mandra&query_place_id=ChIJ149suc_WrRQRN1pR7S3R3qM",
+        "googleReviewNotes": {
+          "googleRating": "4.7 / 5",
+          "highlights": "Mandra köyünde muazzam taş mimari, çok geniş ve yemyeşil bahçe, geniş ücretsiz özel otopark, çok sıcakkanlı aile işletmesi.",
+          "warningsAndTips": [
+            "Google yorumlarında otelin İskeçe merkezine 20-25 km (yaklaşık 25 dk sürüş) uzaklıkta sakin bir köyde olduğu, çevrede akşam yürünecek restoran bulunmadığı vurgulanmıştır. Bu yüzden akşam yemeğinizi mutlaka İskeçe merkezde yiyip otele öyle geçmelisiniz.",
+            "Ev yapımı yöresel kahvaltısı çok övülür (börekler, reçeller); sizin için harika bir deneyimdir ancak eşiniz için çapraz bulaşma riski nedeniyle paketli glutensiz ürünler kullanılmalıdır."
+          ]
+        }
+      },
+      "estimatedDistanceKm": {
+        "min": 380,
+        "max": 410,
+        "exact": 395
+      },
+      "estimatedDrivingHoursIncludingNormalBorders": {
+        "min": 4.0,
+        "max": 4.5
+      },
+      "criticalAlert": "Kalambaka'dan Dion'a giderken Olimpos Dağı arkasındaki dar dağ yollarına girmeyin; Larissa üzerinden A1 otoyolunu kullanın. 28 Ekim 'Ohi Günü' (Yunanistan Ulusal Bayramı) olduğu için İskeçe'ye öğleden sonra (15:30 gibi) vardığınızda sabahki geçit törenleri bitmiş ve caddeler trafiğe açılmış olacaktır.",
+      "parking": [
+        {
+          "title": "1. Dion Arkeolojik Parkı & Müzesi Açık Otoparkı",
+          "type": "Ücretsiz Müze Otoparkı",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Dion Arkeolojik Alanı'nın tam giriş gişesi önünde yer alan geniş, düz ve ağaç gölgeli ücretsiz otoparktır.",
+          "googleReviewNote": "Arkeolojik park ile müze binası birbirine 500 metre mesafededir; her ikisinin önünde de ücretsiz park yeri vardır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Archaeological+Site+of+Dion&query_place_id=ChIJa2hneLAFWBMRAjRX_zXWlYA"
+        },
+        {
+          "title": "2. Otopark Roloi (Saat Kulesi Yanı Merkez Otopark - İskeçe Ana Öneri)",
+          "type": "Ücretli Güvenli Merkez Otoparkı",
+          "fee": "Saatlik ~1,50 € – 2,00 €, 3-4 saatlik gezi için ortalama 3,00 € – 5,00 €.",
+          "description": "İskeçe Eski Şehir (Palaia Poli) dar sokaklarına girmeden, Osmanlı Saat Kulesi'nin hemen yanında yer alan en merkezi bariyerli otoparktır.",
+          "googleReviewNote": "Eski Şehir yürüyüşüne başlamak için en ideal noktadır; 28 Ekim öğleden sonra yer bulmak rahattır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otopark+Roloi+Xanthi&query_place_id=ChIJxzfLVjktrBQRGF3PzE2xdz0"
+        },
+        {
+          "title": "3. Cosmos Kapalı Otopark veya İskeçe Pazar Yeri (Pazari) Açık Otoparkı",
+          "type": "Ücretli Kapalı / Ücretsiz Açık Alternatif",
+          "fee": "Cosmos Kapalı: Saatlik ~2,00 € | Pazar Yeri Açık Alan (Cumartesi hariç): Ücretsiz (0,00 €).",
+          "description": "Roloi otoparkı doluysa 200 metre mesafedeki Cosmos kapalı otoparkı veya İskeçe açık pazar alanı (Çarşamba günü pazar kurulmadığı için boştur) harika alternatiflerdir.",
+          "googleReviewNote": "Cumartesi günleri pazar kurulduğu için kapalı olan geniş meydan, Çarşamba günü tamamen boş ve ücretsizdir.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cosmos+Parking+Xanthi"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "startTime": "08:15",
+          "endTime": "10:15",
+          "activity": "Kalambaka'dan hareket, Larissa üzerinden A1 otoyolu ile Dion'a varış",
+          "googleReviewNote": "Google Yorumu Notu (4.6/5 - 3.500+ yorum): Çok geniş, sulak ve yemyeşil bir açık hava parkıdır. Yorumlarda en çok İsis Tapınağı'nın su içindeki kalıntıları beğenilmiş; ancak sulak alan olduğu için rahat/su geçirmez tabanlı yürüyüş ayakkabısı giyilmesi önerilmiştir. Ayrıca 28 Ekim Milli Bayram (Ohi Günü) olduğu için devlet arkeolojik alanlarında girişin ÜCRETSİZ olma ihtimali yüksektir!"
+        },
+        {
+          "startTime": "10:15",
+          "endTime": "12:00",
+          "activity": "Dion Arkeolojik Parkı (Olimpos Dağı Etekleri)",
+          "historyInfo": "Yunan mitolojisinde 12 tanrının evi kabul edilen Olimpos Dağı'nın tam eteklerinde kurulu olan Dion, adını baş tanrı Zeus'tan ('Dios') alır ve Makedonların en kutsal dini merkeziydi. Büyük İskender, MÖ 334 yılında Asya seferine çıkmadan hemen önce ordusunu burada toplamış ve Zeus tapınağında 9 gün boyunca kurbanlar sunmuştur. Sulak ormanlık alanda İsis Tapınağı (su içinde yükselen sütunlar), antik tiyatro ve Roma hamamları düz bir yürüyüş parkuruyla gezilir.",
+          "googleReviewNote": "Google Yorumu Notu (4.6/5 - 3.500+ yorum): Çok geniş, sulak ve yemyeşil bir açık hava parkıdır. Yorumlarda en çok İsis Tapınağı'nın su içindeki kalıntıları beğenilmiş; ancak sulak alan olduğu için rahat/su geçirmez tabanlı yürüyüş ayakkabısı giyilmesi önerilmiştir. Ayrıca 28 Ekim Milli Bayram (Ohi Günü) olduğu için devlet arkeolojik alanlarında girişin ÜCRETSİZ olma ihtimali yüksektir!"
+        },
+        {
+          "startTime": "12:00",
+          "endTime": "15:30",
+          "activity": "A1 ve A2 otoyolları üzerinden Selanik ve Kavala aksını geçerek İskeçe'ye (Xanthi) sürüş",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Eski Şehir'in Arnavut kaldırımlı sokaklarının çok otantik olduğu, yerel Türk azınlık esnafının çok sıcakkanlı olduğu ve Türkçe iletişim kurulabildiği vurgulanmıştır."
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "18:30",
+          "activity": "İskeçe (Xanthi) Eski Şehir (Palaia Poli) & Osmanlı Saat Kulesi Yürüyüşü",
+          "historyInfo": "'Binbir Rengin Şehri' olarak anılan İskeçe, 18. ve 19. yüzyıllarda Osmanlı İmparatorluğu'nun en değerli tütün üretim merkeziydi ('Yenice tütünü'). 1829 depreminden sonra zengin tüccarlar tarafından yamaç boyunca inşa edilen 1.200'den fazla cumbalı ahşap ve neoklasik taş konak, Yunanistan'ın en iyi korunan tarihi dokularından biridir. Meydandaki Osmanlı Saat Kulesi ise 1859 yılında Hacı Emin Ağa tarafından yaptırılmıştır.",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Eski Şehir'in Arnavut kaldırımlı sokaklarının çok otantik olduğu, yerel Türk azınlık esnafının çok sıcakkanlı olduğu ve Türkçe iletişim kurulabildiği vurgulanmıştır."
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "19:00",
+          "activity": "İskeçe'den Mandra köyündeki Petrinos Lofos otele geçiş, yerleşme ve dinlenme",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5): Eski Şehir'in Arnavut kaldırımlı sokaklarının çok otantik olduğu, yerel Türk azınlık esnafının çok sıcakkanlı olduğu ve Türkçe iletişim kurulabildiği vurgulanmıştır."
+        }
+      ],
+      "attractions": [
+        "Dion Arkeolojik Parkı (Zeus & İsis Kutsal Alanları)",
+        "Olimpos Dağı Panoraması",
+        "İskeçe Eski Şehir (Palaia Poli)",
+        "Hacı Emin Ağa Osmanlı Saat Kulesi (1859)",
+        "Tarihi Tütün Tüccarları Konakları",
+        "Mandra Taş Köyü Yerleşimi"
+      ],
+      "roadSequence": [
+        "Kalambaka",
+        "Larissa",
+        "A1 Otoyolu",
+        "Dion",
+        "Katerini",
+        "A2 Egnatia Odos",
+        "Kavala Çevre Yolu",
+        "İskeçe (Xanthi)",
+        "Mandra (Avdira)"
+      ],
+      "routeNotes": [
+        "Kalambaka'dan ayrılırken Larissa yönündeki düz otoyol bağlantısı tercih edilmelidir; GPS kestirme köy yolları önerirse uymayın.",
+        "İskeçe'de Türkçe konuşan esnaf ve garsonlar oldukça yaygındır; sipariş verirken rahatça Türkçe iletişim kurabilirsiniz.",
+        "Petrinos Lofos, Mandra mevkiinde huzurlu bir taş konaktır ve geniş otoparkı mevcuttur."
+      ],
+      "mealPlan": [
+        {
+          "mealType": "Akşam yemeği",
+          "timeRange": "16:30-18:30",
+          "location": "İskeçe Eski Şehir",
+          "strategy": "Tarihi taş konakta kuzu / tavuk ızgara ve zeytinyağlı lezzetler",
+          "recommendedFoods": [
+            "Izgara kuzu pirzola",
+            "Izgara tavuk göğsü",
+            "Zeytinyağlı taze salata",
+            "Köz patlıcan"
+          ],
+          "primaryOption": {
+            "venueName": "Παλαιά Πόλις (Palaia Polis)",
+            "type": "Tarihi Konak Restoranı",
+            "verificationStatus": "Verified",
+            "reason": "İskeçe Eski Şehir'de tarihi taş konakta hizmet veren seçkin restoran. Garsona SOS kartı gösterilerek ızgara etler güvenle tüketilebilir; Türkçe bilen personel yaygındır.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Palaia+Polis+Xanthi&query_place_id=ChIJVeig0zgtrBQRisNkdn1IB4c",
+            "googleReviewNote": "Google Yorumları (4.6/5 - 1.100+ yorum): Palaia Polis restoranının tarihi bir taş konak içinde harika bir ambiyansa sahip olduğu, ızgara etlerinin çok lezzetli olduğu ve Türkçe menü/iletişim kolaylığı bulunduğu belirtilmiştir."
+          },
+          "alternativeOptions": [
+            {
+              "venueName": "Ελιά (Elia)",
+              "type": "Geleneksel Restoran",
+              "verificationStatus": "Verified",
+              "reason": "Eski Şehir girişinde yüksek puanlı zeytinyağlı ve et alternatifi.",
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=Elia+Xanthi&query_place_id=ChIJjXc4a4MtrBQRaiTZRKMrG4I"
+            },
+            {
+              "venueName": "Αμάλθεια (Amaltheia)",
+              "type": "Geleneksel Meydan Lokantası",
+              "verificationStatus": "Verified",
+              "reason": "Eski Şehir ara sokaklarında samimi aile işletmesi.",
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=Amaltheia+Xanthi&query_place_id=ChIJ2ZNJxjgtrBQRpKwWycUo5q8"
+            }
+          ]
+        }
+      ],
+      "dailyPaymentNotes": {
+        "currenciesNeeded": [
+          "EUR"
+        ],
+        "cashRecommended": true,
+        "expectedPayments": [
+          "A1 & A2 otoyol gişeleri (toplam ~8–10 €)",
+          "Dion Arkeolojik Parkı girişi (~8 €)",
+          "Otopark Roloi ücreti (~3–4 €)",
+          "İskeçe akşam yemeği"
+        ],
+        "warnings": [
+          "28 Ekim resmi tatil olduğu için bankalar ve bazı devlet daireleri kapalıdır; otoyol gişeleri ve restoranlar normal hizmet verir."
+        ]
+      },
+      "mapUrl": "https://www.google.com/maps/dir/Hotel+Kaikis,+Trikalon+146,+Kalampaka,+Yunanistan/Archaeological+Site+of+Dion,+Eparchiaki+Odos+Katerinis+-+Limena+Litochoriou+910,+Dion,+Greece/Petrinos+Lofos,+Mandra,+Mandra,+67061,+Avdira,+Greece",
+      "husbandLocalFoodRecommendations": [
+        "İskeçe Saraylısı (Saragli - bol cevizli ve tereyağlı burma baklava, İskeçe pastanelerinde).",
+        "Karyoka Tatlısı (Papaparaskevas pastanesinden - alkolsüz/likörsüz çeşitlerini sorarak).",
+        "Közde Kahve ve Trakya Usulü Sütlü Tatlılar (Muhallebi / Kazandibi benzeri krema tatlıları)."
+      ],
+      "recommendedFuelAndRestStops": [
+        {
+          "Order": 7,
+          "Name": "ΣΕΑ Ευαγγελισμού / Τεμπών (SEA Evangelismos - Larissa Kuzeyi)",
+          "RouteSegment": "Kalambaka → Larissa → Dion (5. Gün Sabah)",
+          "Highway": "A1 (E75 Atina - Selanik Otoyolu, Olimpos Tünelleri Öncesi)",
+          "Description": "5. gün en uzun sürüş gününüzde Kalambaka'dan çıkıp Larissa üzerinden A1 otoyoluna bağlandığınızda, Dion Arkeolojik Parkı'na varmadan 25 dk önce karşınıza çıkan çok modern ve büyük bir otoyol dinlenme tesisidir.",
+          "Features": [
+            "24 Saat Açık",
+            "Restoran & Kafe (Goody's / Flocafe)",
+            "Çok Geniş Aydınlık Otopark",
+            "Engelli/Aile WC"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Evangelismou+Larissa+A1"
+        },
+        {
+          "Order": 8,
+          "Name": "ΣΕΑ Κορινού / Κατερίνης (SEA Korinos - Olympus Plaza & Shell/BP)",
+          "RouteSegment": "Dion → Selanik → İskeçe (5. Gün Öğle)",
+          "Highway": "A1 (E75 Katerini Kuzeyi - Selanik Yönü)",
+          "Description": "Dion ziyaretini bitirip tekrar A1 otoyoluna çıktığınızda सिर्फ 15 dk ileride yer alır. 315 km'lik kesintisiz Dion–İskeçe sürüşüne başlamadan önce yakıtınızı tamamlamak ve mola vermek için Yunanistan'ın en iyi otoyol tesislerinden biridir (Olympus Plaza).",
+          "Features": [
+            "24 Saat Açık",
+            "Olympus Plaza Kafe & Market",
+            "Yüksek Güvenlik",
+            "Uzun Etaba Çıkış Noktası"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Korinou+Olympus+Plaza+Katerini"
+        },
+        {
+          "Order": 3,
+          "Name": "ΣΕΑ Καβάλας / Μουσθένης (SEA Musson / Mustheni - Shell / EKO & Gregory's)",
+          "RouteSegment": "Kavala → Selanik (1. Gün Alternatif Gece Molası / 2. Gün Sabah Kahve & Yakıt)",
+          "Highway": "A2 (Egnatia Odos - Pangeo Dağı Eteği, Kavala'nın 25 km Batısı)",
+          "Description": "Doğu Makedonya ve Trakya bölgesinde A2 otoyolu üzerindeki en büyük resmi dinlenme tesisidir. Kavala'dan Selanik'e geçerken (veya 5. gün İskeçe'ye dönerken) temiz tuvalet, sıcak kahve ve yakıt için en güvenli duraktır.",
+          "Features": [
+            "24 Saat Açık",
+            "Büyük Kafe & Market",
+            "Ayrı Binek Araç Parkı",
+            "Yüksek Güvenlik"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Mousthenis+Kavala+Egnatia+Odos"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-10-29",
+      "weekday": "Perşembe",
+      "title": "Mandra – Porto Lagos – İpsala – İstanbul",
+      "start": "Mandra",
+      "end": "İstanbul",
+      "overnight": "İstanbul (Ev)",
+      "hotel": null,
+      "estimatedDistanceKm": {
+        "min": 460,
+        "max": 490,
+        "exact": 475
+      },
+      "estimatedDrivingHoursIncludingNormalBorders": {
+        "min": 5.5,
+        "max": 6.5
+      },
+      "criticalAlert": "Porto Lagos'ta göl üzerinde flamingoları fotoğrafladıktan sonra doğrudan A2 otoyoluna bağlanarak İpsala Sınır Kapısı'na yönelin. Sınır öncesi son Yunan otoyol gişelerinden sonra Kipi'de gümrük sahasına girilir.",
+      "parking": [
+        {
+          "title": "1. Porto Lagos Aziz Nikolaos Manastırı Köprü Başı Otoparkı (Ana Öneri)",
+          "type": "Ücretsiz Açık Otopark",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Vistonida Gölü üzerindeki manastıra bağlanan ahşap yaya köprüsünün tam başlangıcında yer alan geniş, düz ve ücretsiz park alanıdır.",
+          "googleReviewNote": "Aracınız gözünüzün önünde durur; çok güvenli ve ferahtır.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Monastery+of+Saint+Nicholas+Porto+Lagos&query_place_id=ChIJnfy003TZrRQRGjYuof1qWkM"
+        },
+        {
+          "title": "2. Porto Lagos Liman & Balıkçı Barınağı Açık Park Alanı",
+          "type": "Ücretsiz Sahil Otoparkı",
+          "fee": "Ücretsiz (0,00 €)",
+          "description": "Manastırdan 1 km ileride, lagünün Ege Denizi ile birleştiği balıkçı kasabası kıyısındaki ücretsiz park alanıdır.",
+          "googleReviewNote": "Flamingoları fotoğraflamak için lagün kıyısı boyunca duraklama cepleri mevcuttur.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Porto+Lagos+Port"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "startTime": "09:00",
+          "endTime": "09:45",
+          "activity": "Mandra'dan çıkış ve Vistonida Lagünü boyunca Porto Lagos'a sürüş",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5 - 6.000+ yorum): Göl üzerindeki ahşap köprülerin çok huzurlu olduğu, manastırın Athos Dağı'na bağlı olması sebebiyle girişte omuz/diz örten kıyafet kuralına dikkat edildiği (girişte ücretsiz şal/etek verilir) ve girişin tamamen ÜCRETSİZ olduğu belirtilmiştir."
+        },
+        {
+          "startTime": "09:45",
+          "endTime": "10:45",
+          "activity": "Porto Lagos – Aziz Nikolaos Manastırı (Ιερά Μονή Αγίου Νικολάου) & Flamingolar",
+          "historyInfo": "Vistonida Gölü ile Ege Denizi'nin birleştiği sığ lagün üzerinde yer alan iki küçük adacık üzerine kurulmuş ve karaya uzun ahşap yaya köprüleriyle bağlanmış eşsiz bir manastırdır. Efsaneye göre Osmanlı döneminde bölgede yaşayan bir bey, kızının hastalığının buradaki şifalı suyla iyileşmesi üzerine araziyi Aynoroz'daki (Athos Dağı) Vatopedi Manastırı'na vakfetmiştir. Ekim ayında göl çevresinde konaklayan pembe flamingoları ve pelikanları izlemek için muazzam bir doğa durağıdır.",
+          "googleReviewNote": "Google Yorumu Notu (4.8/5 - 6.000+ yorum): Göl üzerindeki ahşap köprülerin çok huzurlu olduğu, manastırın Athos Dağı'na bağlı olması sebebiyle girişte omuz/diz örten kıyafet kuralına dikkat edildiği (girişte ücretsiz şal/etek verilir) ve girişin tamamen ÜCRETSİZ olduğu belirtilmiştir."
+        },
+        {
+          "startTime": "10:45",
+          "endTime": "12:30",
+          "activity": "A2 Egnatia Odos ile Gümülcine ve Dedeağaç üzerinden Kipi / İpsala Sınır Kapısı'na varış"
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "14:00",
+          "activity": "Kipi / İpsala sınır geçişi, pasaport, gümrük ve freeshop molası"
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "17:30",
+          "activity": "Keşan ve Tekirdağ üzerinden İstanbul'a varış ve tur tamamlama"
+        }
+      ],
+      "attractions": [
+        "Vistonida Gölü ve Lagün Doğa Parkı",
+        "Aziz Nikolaos Manastırı (Göl Üstü Ahşap Köprüler)",
+        "Ekim Ayı Pembe Flamingo Kolonileri",
+        "A2 Egnatia Odos Trakya Manzaraları",
+        "İpsala Sınır Kapısı & Meriç Nehri Köprüsü"
+      ],
+      "roadSequence": [
+        "Mandra",
+        "Porto Lagos",
+        "Gümülcine (Komotini)",
+        "Dedeağaç (Alexandroupoli)",
+        "Kipi",
+        "İpsala Sınır Kapısı",
+        "Keşan",
+        "Tekirdağ",
+        "İstanbul"
+      ],
+      "routeNotes": [
+        "Porto Lagos'ta ahşap köprülerde yürürken göl esintisine karşı rüzgarlık bulundurmanız önerilir.",
+        "İpsala sınırında gümrüksüz satış mağazasından (Duty Free) alışveriş yapacaksanız pasaportunuzu yanınızda bulundurun.",
+        "Türkiye'ye giriş yaptıktan sonra Keşan veya Tekirdağ'da yemek molası verilebilir."
+      ],
+      "mealPlan": [
+        {
+          "mealType": "Yol atıştırmalığı & Öğle yemeği",
+          "timeRange": "13:00-14:30",
+          "location": "İpsala / Keşan",
+          "strategy": "Sınır geçişi sonrası Türkiye tarafında rahat yemek",
+          "recommendedFoods": [
+            "Keşan satır et",
+            "Izgara köfte / tavuk",
+            "Mevsim salata"
+          ],
+          "primaryOption": {
+            "venueName": "Keşan veya Tekirdağ Dinlenme Tesisleri",
+            "type": "Yol Üstü Izgara Restoranı",
+            "verificationStatus": "Flexible",
+            "reason": "Sınırı geçtikten sonra Türkiye tarafında tamamen güvenli ve helal ızgara et seçenekleri."
+          }
+        }
+      ],
+      "dailyPaymentNotes": {
+        "currenciesNeeded": [
+          "EUR",
+          "TRY"
+        ],
+        "cashRecommended": false,
+        "expectedPayments": [
+          "A2 son gişe ödemesi (~2–3 €)",
+          "Duty Free alışverişi",
+          "Türkiye tarafı yakıt ve yol harcamaları"
+        ],
+        "warnings": [
+          "Yunanistan'da kalan bozuk Euro'larınızı gişelerde veya Duty Free'de değerlendirebilirsiniz."
+        ]
+      },
+      "mapUrl": "https://www.google.com/maps/dir/Petrinos+Lofos,+Mandra,+Mandra,+67061,+Avdira,+Greece/%CE%99%CE%B5%CF%81%CE%AC+%CE%9C%CE%BF%CE%BD%CE%AE+%CE%91%CE%B3%CE%AF%CE%BF%CF%85+%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%AC%CE%BF%CF%85,+Porto+Lagos,+Yunanistan/%C4%B0psala+S%C4%B1n%C4%B1r+Kap%C4%B1s%C4%B1,+K%C3%B6pr%C3%BC,+%C4%B0psala%2FEdirne,+T%C3%BCrkiye/%C4%B0stanbul,+T%C3%BCrkiye",
+      "husbandLocalFoodRecommendations": [
+        "Gümülcine (Komotini) Kırkı (Tahinli/Susamlı Helva veya meşhur Gümülcine Leblebisi & Türk Kahvesi - vaktiniz olursa A2 üzerinden geçerken).",
+        "Türkiye'ye geçiş sonrası Keşan'da meşhur Keşan Satır Et (Eşiniz için de %100 saf kuzu eti ve sadece tuzdan yapıldığı için ekmek değdirilmeden ızgara edildiğinde tamamen glutensizdir!)."
+      ],
+      "recommendedFuelAndRestStops": [
+        {
+          "Order": 2,
+          "Name": "ΣΕΑ Αρδανίου / Ορεστιάδας (SEA Ardanio - EKO & Everest)",
+          "RouteSegment": "Kipi Sınırı → Dedeağaç (1. Gün Gece Uyku Molası - Ana Öneri)",
+          "Highway": "A2 (Egnatia Odos - Batı ve Doğu Yönü Çift Taraflı)",
+          "Description": "Kipi sınır kapısını geçtikten sadece 20 km (15 dk) sonra A2 otoyolu üzerindeki İLK resmi dinlenme tesisidir. Gece 01:00-02:00 civarı sınırı geçtikten sonra yorgunsanız otoyoldan hiç çıkmadan buraya girip Everest kafenin ve pompaların tam karşısındaki aydınlık alanda güvenle uyuyabilirsiniz.",
+          "Features": [
+            "24 Saat Açık EKO İstasyonu",
+            "24 Saat Everest Kafe/Fırın",
+            "Tam Aydınlatmalı & Kameralı",
+            "Gece Uykusuna Uygun"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Ardaniou+EKO+Everest+Egnatia+Odos"
+        },
+        {
+          "Order": 1,
+          "Name": "Shell & Opet İpsala Sınır Öncesi (Türkiye Tarafı Son Çıkış)",
+          "RouteSegment": "İstanbul → İpsala Sınır Kapısı (1. Gün Gece & 6. Gün Dönüş)",
+          "Highway": "D110 / E84 (Keşan - İpsala Yolu)",
+          "Description": "Sınır kapısına girmeden hemen önce (약 2-3 km) Türkiye tarafındaki son tam teşekküllü istasyonlardır. Yunanistan'da akaryakıt Euro bazında çok daha pahalı olduğu için deponuzu mutlaka burada ağzına kadar doldurun. Temiz tuvalet ve market mevcuttur.",
+          "Features": [
+            "24 Saat Açık",
+            "Uygun Fiyatlı TR Yakıtı",
+            "Market & WC",
+            "Güvenli Park"
+          ],
+          "MapUrl": "https://www.google.com/maps/search/?api=1&query=Shell+Ipsala+Edirne"
+        }
+      ]
+    }
+  ],
+  "borderCrossings": [
+    {
+      "sequence": 1,
+      "date": "2026-10-24 (Saat 00:00 sonrası / ~01:00)",
+      "fromCountry": "Türkiye",
+      "toCountry": "Yunanistan",
+      "crossingNames": [
+        "İpsala Sınır Kapısı",
+        "Kipi Border Checkpoint"
+      ],
+      "notes": "23.10.2026 saat 22:00'de İstanbul'dan çıkılarak gece 00:00'dan sonra (24 Ekim'in ilk saatlerinde) sınır kapısına varılır. Gece yarısı geçişi sayesinde gündüz kuyruklarına takılmazsınız ve 24 Ekim tarihli vize/sigorta başlangıcınız dakikası dakikasına geçerli olur."
+    },
+    {
+      "sequence": 2,
+      "date": "2026-10-29",
+      "fromCountry": "Yunanistan",
+      "toCountry": "Türkiye",
+      "crossingNames": [
+        "Kipi Border Checkpoint",
+        "İpsala Sınır Kapısı"
+      ],
+      "notes": "Yunanistan çıkışında pasaport çıkış damgası vurulur. Türkiye girişinde pasaport kontrolü, gümrük tescil ve duty-free geçişi yapılır."
+    }
+  ],
+  "vehicleRequirements": {
+    "vehicleType": "Şahsi Türk Plakalı Otomobil",
+    "pickupLocation": "İstanbul (Şahsi Araç)",
+    "returnLocation": "İstanbul (Şahsi Araç)",
+    "requiredCrossBorderCountries": [
+      "Yunanistan"
+    ],
+    "importantNote": "İlk yurt dışı sürüşünüz olduğundan A2 (Egnatia Odos) ve A1 bölünmüş otoyolları tercih edilmiştir. Dağ yollarından ve Selanik şehir içi trafiğinden kaçınılmıştır.",
+    "checksBeforeDeparture": [
+      "Uluslararası Yeşilkart Sigortası (Green Card) geçerlilik tarihi kontrol edildi.",
+      "Yeni tip çipli sürücü belgesi kontrol edildi (Eski tip ehliyetler yurt dışında geçmez).",
+      "Araç ruhsatı aslı araçta ve araç sürücünün adına tescilli (Değilse noter onaylı yurt dışı vekaletnamesi şarttır).",
+      "Araç periyodik bakımı, lastik hava basınçları ve silecek suları kontrol edildi.",
+      "Yurt dışı çıkışından önce İpsala sınır kapısı öncesinde Türkiye tarafında tam depo yakıt alındı."
+    ],
+    "borderInspectionChecklist": [
+      "Torpido gözünde ruhsat, yeşil sigorta ve kasko poliçesi hazır.",
+      "Yurt dışı çıkış harç pulları online veya gişeden ödendi.",
+      "Pasaportlar ve Schengen vizeleri sürücü ve yolcu için hazır.",
+      "Araç içinde reflektör, ilk yardım çantası ve yangın tüpü mevcut."
+    ]
+  },
+  "documentsChecklist": [
+    "Pasaportlar (En az 6 ay geçerlilik süreli)",
+    "Çok girişli (Multi) Schengen Vizesi",
+    "Yeni Tip Çipli Türkiye Cumhuriyeti Sürücü Belgesi",
+    "Araç Tescil Belgesi (Ruhsat Aslı)",
+    "Yeşilkart (Green Card) Uluslararası Motorlu Taşıt Sigortası",
+    "Yurt Dışı Çıkış Harç Pulu (Dijital veya fiziki makbuz)",
+    "Seyahat Sağlık Sigortası poliçe çıktıları",
+    "Otel Rezervasyon belgeleri ve rezervasyon kodları (Atlas, Atlantis, Kaikis, Petrinos Lofos)",
+    "Çölyak & Helal Yunanca Garson SOS Kartı çıktısı veya telefonda ekran görüntüsü"
+  ],
+  "accommodationPlan": [
+    {
+      "checkIn": "2026-10-24",
+      "checkOut": "2026-10-25",
+      "nights": 1,
+      "city": "Kavala",
+      "hotelName": "Atlas Boutique Suites",
+      "reservationCode": "6917068317",
+      "recommendedAreas": [
+        "Panagia Yarımadası Eteği",
+        "Liman Caddesi"
+      ],
+      "requirements": [
+        "Sahil otoparkına yakınlık",
+        "Düz ayak giriş",
+        "Eski Şehir yürüme mesafesi"
+      ],
+      "avoid": [
+        "Panagia içi araçla dar sokaklara giriş"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlas+Boutique+Suites+Kavala&query_place_id=ChIJaw0ige67rhQRDajTgxkIakM",
+      "googleReviewsSummary": {
+        "googleRating": "4.8 / 5",
+        "highlights": "Panagia (Eski Şehir) girişinde mükemmel merkezi konum, tertemiz ve yeni dekore edilmiş odalar, ilgili ev sahibi.",
+        "warningsAndTips": [
+          "Otelin kendine ait özel otoparkı YOKTUR ve bulunduğu sokak yokuşlu/dardır. Google yorumlarında misafirler valizlerle yokuş çıkmamak için aracı mutlaka aşağıda sahil/liman otoparkına (Parking Teloneiou) bırakmayı önermektedir.",
+          "Binada asansör bulunmadığı ve dik basamaklar olduğu yorumlarda sıkça belirtilmiştir; büyük valiz yerine gece çantasıyla çıkmanız çok daha rahat olur.",
+          "Sabah erken (05:30-06:00 gibi) Kavala'ya varacağınız için normal check-in saati (14:00-15:00) öncesinde eşyalarınızı bagajda bırakıp geziye başlayabilir, ev sahibine önceden WhatsApp üzerinden varış saatinizi bildirebilirsiniz."
+        ]
+      }
+    },
+    {
+      "checkIn": "2026-10-25",
+      "checkOut": "2026-10-27",
+      "nights": 2,
+      "city": "Perea (Selanik Sahili)",
+      "hotelName": "Atlantis ''Pleasure by the Sea''",
+      "reservationCode": "6741250915",
+      "recommendedAreas": [
+        "Perea Sahil Kordonu"
+      ],
+      "requirements": [
+        "Ücretsiz otopark",
+        "Şehir trafiğinden uzaklık",
+        "A24 otoyolu bağlantısı",
+        "Denize sıfır konum"
+      ],
+      "avoid": [
+        "Selanik merkez otelleri (park ve trafik kabusu)"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlantis+Pleasure+By+The+Sea+Perea&query_place_id=ChIJv7lV5ewVqBQRp1rKJ-32kgw",
+      "googleReviewsSummary": {
+        "googleRating": "4.3 / 5",
+        "highlights": "Perea kordonunda denize sıfır konum, güler yüzlü personel, temiz odalar ve hemen önünde tavernalar.",
+        "warningsAndTips": [
+          "Google yorumlarında en çok vurgulanan konu: Otelin kendi özel otoparkı YOKTUR. Yaz ve hafta sonu günlerinde sahil caddesinde park yeri bulmak zor olabilmektedir; otelin 1-2 arka sokağındaki ücretsiz sokak aralarına park etmeniz önerilir.",
+          "Bazı odaların ve banyoların biraz küçük/eski tip olduğu, deniz manzaralı ön cephe odalarında ise hafta sonu akşamları sahil kafelerinden ses gelebileceği belirtilmiştir.",
+          "Selanik Havalimanı'na (SKG) yakın olduğu için uçak iniş-kalkış sesleri zaman zaman duyulabilmektedir."
+        ]
+      }
+    },
+    {
+      "checkIn": "2026-10-27",
+      "checkOut": "2026-10-28",
+      "nights": 1,
+      "city": "Kalambaka (Meteora)",
+      "hotelName": "Hotel Kaikis",
+      "reservationCode": "5738903346",
+      "recommendedAreas": [
+        "Kalambaka Kasaba Merkezi",
+        "Trikalon Caddesi"
+      ],
+      "requirements": [
+        "Otel otoparkı",
+        "Meteora kayalıklarına 10 dk sürüş mesafesi",
+        "Glutensiz restoranlara yakınlık"
+      ],
+      "avoid": [
+        "Kastraki içi aşırı dar yokuşlar"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Kaikis+Kalambaka&query_place_id=ChIJM0O5fsgPWRMRdonAkG5b5-A",
+      "googleReviewsSummary": {
+        "googleRating": "4.6 / 5",
+        "highlights": "Fiyat/performans açısından çok başarılı, tertemiz aile işletmesi, Meteora kayalıklarına bakan balkonlu odalar.",
+        "warningsAndTips": [
+          "Otel Kalambaka ana caddesinin (Trikalon) sonunda, merkeze yürüyerek 12-15 dakika mesafededir (arabayla 2 dk). Otelin hemen önünde ve yanında ücretsiz park alanı mevcuttur.",
+          "Google yorumlarında kahvaltısının standart/kısıtlı olduğu belirtilmiştir; çölyak hastası eşiniz için Selanik Foodie's Art fırınından aldığınız glutensiz ürünleri yanınızda bulundurmanız çok önemlidir.",
+          "Oda duvarlarının biraz ince olduğu ve yan odalardan ses geçebildiği not düşülmüştür."
+        ]
+      }
+    },
+    {
+      "checkIn": "2026-10-28",
+      "checkOut": "2026-10-29",
+      "nights": 1,
+      "city": "Mandra (Avdira / İskeçe)",
+      "hotelName": "Petrinos Lofos",
+      "reservationCode": "6266974331",
+      "recommendedAreas": [
+        "Mandra Köyü",
+        "Porto Lagos Yolu"
+      ],
+      "requirements": [
+        "Geniş açık otopark",
+        "Tarihi taş konak atmosferi",
+        "A2 otoyolu ve Porto Lagos'a yakınlık"
+      ],
+      "avoid": [
+        "İskeçe merkezi park yeri kısıtı"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Petrinos+Lofos+Mandra&query_place_id=ChIJ149suc_WrRQRN1pR7S3R3qM",
+      "googleReviewsSummary": {
+        "googleRating": "4.7 / 5",
+        "highlights": "Mandra köyünde muazzam taş mimari, çok geniş ve yemyeşil bahçe, geniş ücretsiz özel otopark, çok sıcakkanlı aile işletmesi.",
+        "warningsAndTips": [
+          "Google yorumlarında otelin İskeçe merkezine 20-25 km (yaklaşık 25 dk sürüş) uzaklıkta sakin bir köyde olduğu, çevrede akşam yürünecek restoran bulunmadığı vurgulanmıştır. Bu yüzden akşam yemeğinizi mutlaka İskeçe merkezde yiyip otele öyle geçmelisiniz.",
+          "Ev yapımı yöresel kahvaltısı çok övülür (börekler, reçeller); sizin için harika bir deneyimdir ancak eşiniz için çapraz bulaşma riski nedeniyle paketli glutensiz ürünler kullanılmalıdır."
+        ]
+      }
+    }
+  ],
+  "foodGuide": {
+    "preferencesToConfirm": {
+      "porkAllowed": false,
+      "porkRestriction": "Strict",
+      "porkRestrictionNote": "Domuz eti, pastırması, jambonu veya domuz yağı içeren hiçbir gıda kesinlikle tüketilmeyecektir; dini gerekçelerle SOS kartında açıkça belirtilmiştir.",
+      "alcoholInFoodAllowed": true,
+      "alcoholInFoodNote": "Şarap ve sirke ile pişirilen balık sosları tüketilebilir; ancak una bulanmamış olması şarttır.",
+      "seafoodPreferred": true,
+      "seafoodPreferenceNote": "Taze ızgara balık, ızgara ahtapot, ızgara kalamar (unsuz) ve kabuklu deniz ürünleri birinci öncelikli tercihtir.",
+      "celiacDiseaseStrict": true,
+      "celiacDiseaseNote": "Eşi çölyak hastasıdır; buğday, un, arpa, çavdar ve ortak fritöz yağından kaynaklanan çapraz bulaşma kesinlikle önlenmelidir.",
+      "targetMealBudgetPerPerson": "30–50 €",
+      "budgetPolicy": "Deniz kenarı kaliteli balık restoranları ve geleneksel güvenli tavernalar tercih edilmiştir."
+    },
+    "verificationLegend": {
+      "Verified": "Resmi menü, glütensiz seçenek ve adres doğrulanmıştır.",
+      "VerifiedByTravelSource": "Güvenilir uluslararası çölyak toplulukları (Atly vb.) tarafından onaylanmıştır.",
+      "Provisional": "Seçkin adrestir; sipariş öncesi SOS kartı gösterilmelidir.",
+      "Flexible": "Esnek yerel yemek seçeneğidir."
+    },
+    "usefulDietaryPhrases": [
+      {
+        "language": "Yunanca",
+        "phrase": "Horis glouteni (Χωρίς γλουτένη)",
+        "meaning": "Glutensiz"
+      },
+      {
+        "language": "Yunanca",
+        "phrase": "Horis hoirino (Χωρίς χοιρινό)",
+        "meaning": "Domuz eti olmasın"
+      },
+      {
+        "language": "Yunanca",
+        "phrase": "Psari Skaras (Ψάρι Σχάρας)",
+        "meaning": "Izgara balık (unsuz, sadece zeytinyağı-limon)"
+      },
+      {
+        "language": "Yunanca",
+        "phrase": "Horiatiki horis paximadi (Χωριάτικη χωρίς παξιμάδι)",
+        "meaning": "Yunan salatası (üzerinde peksimet/ekmek olmadan)"
+      },
+      {
+        "language": "Yunanca",
+        "phrase": "Ohi tiganita (Όχι τηγανητά)",
+        "meaning": "Kızartma olmasın (fritöz çapraz bulaşması riski)"
+      }
+    ],
+    "generalOrderingNotes": [
+      "Restorana oturduğunuzda menüye bakmadan önce SOS Garson Kartını garsona okutun.",
+      "Kalamar sipariş ederken mutlaka 'Kalamari Skaras' (Izgara) vurgusu yapın; aksi halde unlanıp kızartılan 'Kalamari Tiganita' gelir.",
+      "Köfte (Keftedes) ve sucuklarda ekmek içi ve domuz kıyması kullanıldığından daima parça et (kuzu pirzola, tavuk şiş vb.) tercih edin.",
+      "Kavala Kurabiyesi alırken sadece kendiniz için 'Me voutyro galaktos' (Süt tereyağlı) olanı sorun; eşiniz kesinlikle yememelidir.",
+      "Pazartesi sabahı Selanik'teki Foodie's Art fırınından glutensiz bougatsa ve ekmek alarak sonraki günler için güvenli kahvaltı stoğu yapın."
+    ],
+    "certifiedBakeries": [
+      {
+        "name": "Foodie's Art Gluten Free Bakery",
+        "city": "Selanik",
+        "address": "Selanik Doğu Aksı",
+        "workingHours": "Pazartesi 08:30–13:00 (Pazar Kapalı)",
+        "specialties": "Glutensiz Bougatsa (Yunan böreği), taze ekmek, kurabiye, pizza tabanı",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Foodies+Art+Gluten+Free+Bakery+Thessaloniki&query_place_id=ChIJUR0tSQA5qBQRHQH2BC0YAUI"
+      }
+    ],
+    "finalVerificationWindow": "Restoranların çalışma saatleri ve masa rezervasyonları seyahatten 2–3 gün önce Google Maps üzerinden kontrol edilmelidir.",
+    "localDelicaciesForNonCeliacTraveler": {
+      "title": "Sizin (Çölyak Olmayan Yolcu) Tatmanız Gereken Domuzsuz Yöresel Yunan Lezzetleri",
+      "importantRule": "Eşiniz çölyak hastası olduğu için bu ürünler (buğday unu / yufka içerdiğinden) sadece sizin tarafınızdan tüketilmelidir. Eşinizle temas öncesi el yıkama ve kırıntı bulaşmamasına dikkat edilmelidir. Tüm öneriler domuz eti ve domuz yağı (lard) içermeyen çeşitlerden seçilmiştir.",
+      "mustTryItems": [
+        {
+          "name": "Bougatsa (Μπουγάτσα - Geleneksel Selanik & Kavala Böreği)",
+          "city": "Kavala & Selanik",
+          "types": "Bougatsa me Krema (İrmikli sıcak muhallebili ve tarçınlı), Bougatsa me Tyri (Feta/lor peynirli) veya Bougatsa me Kima (Sadece %100 dana kıymalı - 'mono moschari' olduğunu teyit edin).",
+          "warning": "Kesinlikle 'mpougatsa' veya 'sfoliata' alırken jambonlu/domuzlu (zampon/beikon) olanlardan uzak durun. Tatlı kremalı ve peynirli olanlar %100 güvenlidir ve Kuzey Yunanistan'ın en meşhur sabah kahvaltısıdır."
+        },
+        {
+          "name": "Trigona Panorama (Τρίγωνα Πανοράματος)",
+          "city": "Selanik",
+          "types": "Şerbetli çıtır üçgen baklava yufkası içerisine sipariş anında doldurulan taze pastacı kreması.",
+          "warning": "Selanik'in en ikonik tatlısıdır. Süt, tereyağı, yumurta ve undan yapılır (domuz türevi içermez)."
+        },
+        {
+          "name": "Koulouri Thessalonikis (Κουλούρι Θεσσαλονίκης - Selanik Simidi)",
+          "city": "Selanik",
+          "types": "Sokak tezgahlarında ve fırınlarda satılan çıtır susamlı geleneksel Selanik simidi.",
+          "warning": "Tamamen bitkisel/vegan içeriklidir, sabah yürüyüşlerinde kahve yanında mutlaka tadılmalıdır."
+        },
+        {
+          "name": "Kavala Kurabiyesi (Κουραμπιέδες Νέας Καρβάλης - Kourabiedes)",
+          "city": "Kavala",
+          "types": "Kavala'nın Nea Karvali bölgesine özgü, bütün kavrulmuş bademli un kurabiyesi.",
+          "warning": "KRİTİK UYARI: Bazı geleneksel üreticiler kıvam için domuz yağı (lard) kullanabilir. Alırken mutlaka paketin üzerinde veya fırında 'Με βούτυρο γάλακτος / Φυτικό βούτυρο - Χωρίς χοιρινό λίπος' (Süt tereyağlı / bitkisel yağlı - domuz yağsız) ibaresini teyit edin (Örn: Chrisanthidis fırınında tereyağlı seriler mevcuttur)."
+        },
+        {
+          "name": "Tsoureki (Τσουρέκι - Mahlepli ve Damla Sakızlı Paskalya Çöreği)",
+          "city": "Selanik (Özellikle Terkenlis Fırını)",
+          "types": "Kestane kremalı veya bitter çikolata kaplı örgü çörek.",
+          "warning": "Tereyağı, süt ve yumurta ile yapılır; Aristotelous Meydanı köşesindeki tarihi Terkenlis fırınından tadabilirsiniz."
+        },
+        {
+          "name": "Saganaki & Feta Me Meli (Σαγανάκι & Φέτα με Μέλι)",
+          "city": "Kavala, Selanik, Afytos, Kalambaka",
+          "types": "Una bulanarak tavada kızartılan Graviera/Kefalotyri peyniri (Saganaki) veya susamlı yufkaya sarılıp kızartılan ve üzerine bal dökülen Feta peyniri (Feta me Meli).",
+          "warning": "Restoranlarda eşiniz un ve fritöz yüzünden yiyemezken, sizin balıkların yanında mutlaka tatmanız gereken en meşhur sıcak mezelerdir."
+        },
+        {
+          "name": "İskeçe Karyoka Tatlısı & Saraylı (Καριόκες & Σαραγλί Ξάνθης)",
+          "city": "İskeçe (Xanthi)",
+          "types": "İskeçe'nin coğrafi işaretli cevizli, bitter çikolata kaplı tatlısı (Karyoka) ve tereyağlı burma baklavası (Saragli).",
+          "warning": "Karyoka'nın klasik versiyonlarında bazen likör/konyak aroması olabilir; 'Horis alkool' (alkolsüz) olanları veya şerbetli Saragli'yi tercih edebilirsiniz."
+        },
+        {
+          "name": "Taze Kızartma Kalamar & Kabak (Kalamari Tiganita & Kolokithakia Tiganita)",
+          "city": "Kavala, Perea, Afytos",
+          "types": "Una bulanarak çıtır kızartılan taze Ege kalamarı ve ince dilim kabak cipsi (cacık/tzatziki ile).",
+          "warning": "Eşiniz için 'Skaras' (ızgara) söylenirken, kendiniz için ayrı bir tabakta çıtır kızartma söyleyebilirsiniz."
+        }
+      ]
+    }
+  },
+  "currencies": [
+    {
+      "country": "Yunanistan",
+      "currency": "Euro",
+      "code": "EUR",
+      "cardAcceptance": "Mükemmel (Restoranlar, gişeler, süpermarketler, müzeler)",
+      "euroUsage": "Resmi ve tek yasal para birimi",
+      "cashRecommended": true,
+      "primaryPaymentCurrencyForTravel": true,
+      "planningCashBandForTwo": {
+        "min": 150,
+        "max": 250,
+        "currency": "EUR",
+        "scope": "Meteora manastır girişleri (3€), bahşişler, küçük köy kafeleri ve otoparklar"
+      }
+    }
+  ],
+  "moneyAndPayments": {
+    "mainReferenceCurrency": "EUR",
+    "lastVerified": "2026-10-19",
+    "exchangeRatePolicy": {
+      "reason": "Yunanistan resmi para birimi Euro'dur.",
+      "recommendedAction": "Harcamaların tamamına yakınında yurt dışı komisyonsuz veya düşük komisyonlu kredi kartı kullanılmalıdır.",
+      "hardcodedRatesIncluded": false
+    },
+    "cashStrategy": {
+      "euroEmergencyReserveForTwo": {
+        "min": 200,
+        "max": 300,
+        "currency": "EUR",
+        "note": "Manastır girişleri (nakit 3€ zorunluluğu olabilen yerler), otopark otomatları ve acil durumlar için nakit olarak torpido/cüzdanda bulundurulmalıdır."
+      },
+      "localCurrencyRules": [
+        "Otoyol gişelerinde temassız kredi kartı doğrudan geçer; 1–2 Euro bozukluk bulundurmak geçişi hızlandırır.",
+        "Meteora manastırlarında kişi başı 3 € bilet ücreti çoğu zaman nakit toplanır.",
+        "Restoranlarda bahşiş hesaba dahil değildir; servis memnuniyetine göre %5–10 nakit bırakılabilir."
+      ]
+    },
+    "cardAndAtmChecklist": [
+      "Kredi kartlarının yurt dışı kullanımına açık olduğu banka uygulamasından kontrol edildi.",
+      "Döviz ekstreli kart varsa varsayılan hesap döviz olarak ayarlandı.",
+      "POS cihazlarında para birimi sorulduğunda daima 'EUR' (yerel para) seçilmeli (DCC komisyon tuzağından kaçının)."
+    ],
+    "roadPaymentPlan": [
+      {
+        "country": "Yunanistan (A2 Egnatia Odos & A1)",
+        "verificationStatus": "Verified",
+        "possiblePayments": [
+          "Kavala Gişeleri (~2.40 €)",
+          "Selanik Çevre Yolu Gişeleri (~1.20–1.80 €)",
+          "Larissa / Dion Gişeleri (~1.50–2.50 €)",
+          "İskeçe Gişeleri (~1.90 €)"
+        ],
+        "recommendedPaymentBackup": [
+          "Temassız Kredi Kartı",
+          "Nakit Bozuk Euro"
+        ],
+        "note": "Gişelerde 'Card' (kart) veya 'Coins/Cash' (nakit) simgeli şeritlere girilmelidir."
+      }
+    ],
+    "rentalCarMoneyChecks": [
+      "Yakıt alımlarında benzin istasyonlarında kart geçerlidir.",
+      "Otopark fişleri araca dönene kadar cüzdanda saklanmalıdır."
+    ],
+    "budgetDisclaimer": "Otoyol gişe ücretleri ve müze girişleri mevsimsel olarak küçük değişiklikler gösterebilir.",
+    "finalVerificationDates": [
+      "2026-10-20",
+      "2026-10-23"
+    ]
+  },
+  "navigationAndDrivingNotes": [
+    "A2 (Egnatia Odos) ve A1 bölünmüş ücretli otoyollardır; hız limiti 130 km/s'dir.",
+    "Şehir içi hız limiti 50 km/s, bölünmüş yollarda 110 km/s, otoyollarda 130 km/s'dir.",
+    "Farlar gündüz ve gece sürekli açık tutulmalıdır.",
+    "Emniyet kemeri hem ön hem arka koltuklarda zorunludur.",
+    "Direksiyon başında cep telefonu kullanımı kesinlikle yasaktır ve cezası yüksektir.",
+    "Selanik şehir merkezine araba ile girilmeyip Nea Elvetia Metro otoparkına bırakılmalıdır.",
+    "Olimpos dağ yollarına girmeyip Larissa üzerinden A1 otoyoluyla Dion Arkeolojik Parkı'na gidilmelidir.",
+    "Vergina'dan Kalambaka'ya giderken A2 Grevena otoyol kolu takip edilmelidir.",
+    "Google Maps haritalarını çevrimdışı (offline) olarak telefonunuza indirin."
+  ],
+  "packingAndPracticalChecklist": [
+    "Pasaportlar, vizeler, yeşil sigorta ve araç ruhsatı",
+    "Tansiyon ve düzenli kullanılan kişisel ilaçlar",
+    "Eşiniz için acil durum glütensiz paket atıştırmalıklar (fındık, badem, glütensiz kraker)",
+    "Rahat yürüyüş ayakkabısı (Afytos arnavut kaldırımı ve Meteora basamakları için)",
+    "Meteora manastırları için omuz ve dizleri örten kıyafet / şal",
+    "Porto Lagos lagün rüzgarına karşı rüzgarlık mont",
+    "Telefon araç tutacağı ve hızlı araç şarj cihazı",
+    "Powerbank (taşınabilir şarj aleti)",
+    "Güneş gözlüğü ve şapka",
+    "SOS Garson Kartı renkli A4 çıktısı (yedek olarak)"
+  ],
+  "sourceReferences": [
+    {
+      "title": "Google Maps 1.895 KM Tam Sürüş Rotası",
+      "url": "https://www.google.com/maps/dir/%C4%B0stanbul,+T%C3%BCrkiye/%C4%B0psala+S%C4%B1n%C4%B1r+Kap%C4%B1s%C4%B1,+K%C3%B6pr%C3%BC,+%C4%B0psala%2FEdirne,+T%C3%BCrkiye/Atlas+Boutique+Suites,+%CE%9A%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CF%85+1,+%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/(%CE%BC)+Metro+Station+%22Nea+Elvetia%22,+Michail+Psellou,+Thessaloniki,+Greece/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan/Free+Parking+1+Afytos,+4C3M%2B76,+Kassandra,+Greece/Aigai+Kraliyet+Mezarlar%C4%B1+M%C3%BCzesi,+Vergina,+Yunanistan/Hotel+Kaikis,+Trikalon+146,+Kalampaka,+Yunanistan/Archaeological+Site+of+Dion,+Eparchiaki+Odos+Katerinis+-+Limena+Litochoriou+910,+Dion,+Greece/Petrinos+Lofos,+Mandra,+Mandra,+67061,+Avdira,+Greece/%CE%99%CE%B5%CF%81%CE%AC+%CE%9C%CE%BF%CE%BD%CE%AE+%CE%91%CE%B3%CE%AF%CE%BF%CF%85+%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%AC%CE%BF%CF%85,+Porto+Lagos,+Yunanistan/%C4%B0stanbul,+T%C3%BCrkiye",
+      "usedFor": "Tüm gezi duraklarının navigasyonu"
+    },
+    {
+      "title": "Aigai Vergina Kraliyet Mezarları Müzesi",
+      "url": "https://www.aigai.gr/",
+      "usedFor": "Müze açılış saatleri ve II. Filip mezarı tarihi bilgileri"
+    },
+    {
+      "title": "Meteora Manastırları Resmi Ziyaret Rehberi",
+      "url": "https://visitmeteora.travel/",
+      "usedFor": "Salı günü açık olan Varlaam ve Roussanou manastır çalışma saatleri"
+    },
+    {
+      "title": "Selanik Metro İşletmesi",
+      "url": "https://www.thessmetro.gr/",
+      "usedFor": "Nea Elvetia Park & Ride, Sintrivani ve Venizelou hat bilgileri"
+    },
+    {
+      "title": "Foodie's Art Gluten Free Bakery Selanik",
+      "url": "https://www.google.com/maps/search/?api=1&query=Foodies+Art+Gluten+Free+Bakery+Thessaloniki",
+      "usedFor": "Glutensiz sertifikalı fırın ve çalışma günleri"
+    },
+    {
+      "title": "Egnatia Odos Otoyol İşletmesi",
+      "url": "https://www.egnatia.eu/",
+      "usedFor": "A2 gişe ücretleri ve yol durumu"
+    }
+  ],
+  "highwayRestStationsAndFuelStops": {
+    "title": "Rota Üzerindeki 24 Saat Açık Güvenli Otoyol Dinlenme Tesisleri (ΣΕΑ) ve Benzin İstasyonları",
+    "criticalRule": "Yunanistan otoyollarında (A2 ve A1) sadece 'WC / Parking' tabelası olan ıssız ceplerde kesinlikle durmayın. Yalnızca aşağıda sıralanan, içinde 24 saat açık benzin istasyonu, market/kafe, aydınlatma ve kamera sistemi bulunan resmi 'ΣΕΑ (Motorist Service Station)' tesislerini kullanın.",
+    "stations": [
+      {
+        "Order": 1,
+        "Name": "Shell & Opet İpsala Sınır Öncesi (Türkiye Tarafı Son Çıkış)",
+        "RouteSegment": "İstanbul → İpsala Sınır Kapısı (1. Gün Gece & 6. Gün Dönüş)",
+        "Highway": "D110 / E84 (Keşan - İpsala Yolu)",
+        "Description": "Sınır kapısına girmeden hemen önce (약 2-3 km) Türkiye tarafındaki son tam teşekküllü istasyonlardır. Yunanistan'da akaryakıt Euro bazında çok daha pahalı olduğu için deponuzu mutlaka burada ağzına kadar doldurun. Temiz tuvalet ve market mevcuttur.",
+        "Features": [
+          "24 Saat Açık",
+          "Uygun Fiyatlı TR Yakıtı",
+          "Market & WC",
+          "Güvenli Park"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=Shell+Ipsala+Edirne"
+      },
+      {
+        "Order": 2,
+        "Name": "ΣΕΑ Αρδανίου / Ορεστιάδας (SEA Ardanio - EKO & Everest)",
+        "RouteSegment": "Kipi Sınırı → Dedeağaç (1. Gün Gece Uyku Molası - Ana Öneri)",
+        "Highway": "A2 (Egnatia Odos - Batı ve Doğu Yönü Çift Taraflı)",
+        "Description": "Kipi sınır kapısını geçtikten sadece 20 km (15 dk) sonra A2 otoyolu üzerindeki İLK resmi dinlenme tesisidir. Gece 01:00-02:00 civarı sınırı geçtikten sonra yorgunsanız otoyoldan hiç çıkmadan buraya girip Everest kafenin ve pompaların tam karşısındaki aydınlık alanda güvenle uyuyabilirsiniz.",
+        "Features": [
+          "24 Saat Açık EKO İstasyonu",
+          "24 Saat Everest Kafe/Fırın",
+          "Tam Aydınlatmalı & Kameralı",
+          "Gece Uykusuna Uygun"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Ardaniou+EKO+Everest+Egnatia+Odos"
+      },
+      {
+        "Order": 3,
+        "Name": "ΣΕΑ Καβάλας / Μουσθένης (SEA Musson / Mustheni - Shell / EKO & Gregory's)",
+        "RouteSegment": "Kavala → Selanik (1. Gün Alternatif Gece Molası / 2. Gün Sabah Kahve & Yakıt)",
+        "Highway": "A2 (Egnatia Odos - Pangeo Dağı Eteği, Kavala'nın 25 km Batısı)",
+        "Description": "Doğu Makedonya ve Trakya bölgesinde A2 otoyolu üzerindeki en büyük resmi dinlenme tesisidir. Kavala'dan Selanik'e geçerken (veya 5. gün İskeçe'ye dönerken) temiz tuvalet, sıcak kahve ve yakıt için en güvenli duraktır.",
+        "Features": [
+          "24 Saat Açık",
+          "Büyük Kafe & Market",
+          "Ayrı Binek Araç Parkı",
+          "Yüksek Güvenlik"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Mousthenis+Kavala+Egnatia+Odos"
+      },
+      {
+        "Order": 4,
+        "Name": "Shell / EKO Thermi - Perea & Halkidiki Yolu (A24 Bağlantısı)",
+        "RouteSegment": "Selanik → Perea / Afytos (2. ve 3. Gün)",
+        "Highway": "EO16 / A24 (Selanik - Nea Moudania Yolu Üzeri, IKEA & Havalimanı Yakını)",
+        "Description": "A24 Halkidiki yolu üzerinde otoyol tipi dev tesis bulunmaz; ancak Perea kavşağı ile Havalimanı (Thermi) arasındaki bu büyük istasyonlar 24 saat açıktır, geniş markete ve lastik hava/su ünitelerine sahiptir.",
+        "Features": [
+          "24 Saat Açık",
+          "Hava/Su İstasyonu",
+          "Geniş Market",
+          "Afytos Öncesi İdeal Durak"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=Shell+Thermi+Thessaloniki+Moudania"
+      },
+      {
+        "Order": 5,
+        "Name": "ΣΕΑ Πλατάνου / Αλεξάνδρειας (SEA Platanos - BP / EKO & Everest)",
+        "RouteSegment": "Perea (Selanik) → Vergina (4. Gün Sabah)",
+        "Highway": "A2 (Egnatia Odos - Veria / Vergina Öncesi)",
+        "Description": "Selanik'ten Vergina ve Meteora yönüne giderken A2 otoyolu üzerindeki en donanımlı tesistir. Vergina Kraliyet Mezarları'na inmeden önce (약 20 dk mesafede) tuvalet ve kahve molası için mükemmeldir.",
+        "Features": [
+          "24 Saat Açık",
+          "Everest Kafe & Market",
+          "Geniş Otopark",
+          "Temiz WC"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Platanou+Egnatia+Odos+Alexandria"
+      },
+      {
+        "Order": 6,
+        "Name": "ΣΕΑ Γρεβενών / Σιάτιστας (SEA Grevena - EKO / Avin)",
+        "RouteSegment": "Vergina → Kalambaka / Meteora (4. Gün Öğleden Sonra)",
+        "Highway": "A2 (Egnatia Odos - Kalambaka/Trikala E65 Otoyol Ayrımı Öncesi)",
+        "Description": "Vergina'dan sonra Pindus dağ geçitlerini aşarken Kalambaka (Meteora) ayrımına girmeden önceki son resmi otoyol tesisidir. Dağ etabına inmeden önce yakıt kontrolü ve dinlenme için mutlaka değerlendirilmelidir.",
+        "Features": [
+          "24 Saat Açık",
+          "Dağ Geçidi Öncesi Son Tesis",
+          "Market & Kafe",
+          "Güvenli Park"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Grevenon+Egnatia+Odos"
+      },
+      {
+        "Order": 7,
+        "Name": "ΣΕΑ Ευαγγελισμού / Τεμπών (SEA Evangelismos - Larissa Kuzeyi)",
+        "RouteSegment": "Kalambaka → Larissa → Dion (5. Gün Sabah)",
+        "Highway": "A1 (E75 Atina - Selanik Otoyolu, Olimpos Tünelleri Öncesi)",
+        "Description": "5. gün en uzun sürüş gününüzde Kalambaka'dan çıkıp Larissa üzerinden A1 otoyoluna bağlandığınızda, Dion Arkeolojik Parkı'na varmadan 25 dk önce karşınıza çıkan çok modern ve büyük bir otoyol dinlenme tesisidir.",
+        "Features": [
+          "24 Saat Açık",
+          "Restoran & Kafe (Goody's / Flocafe)",
+          "Çok Geniş Aydınlık Otopark",
+          "Engelli/Aile WC"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Evangelismou+Larissa+A1"
+      },
+      {
+        "Order": 8,
+        "Name": "ΣΕΑ Κορινού / Κατερίνης (SEA Korinos - Olympus Plaza & Shell/BP)",
+        "RouteSegment": "Dion → Selanik → İskeçe (5. Gün Öğle)",
+        "Highway": "A1 (E75 Katerini Kuzeyi - Selanik Yönü)",
+        "Description": "Dion ziyaretini bitirip tekrar A1 otoyoluna çıktığınızda सिर्फ 15 dk ileride yer alır. 315 km'lik kesintisiz Dion–İskeçe sürüşüne başlamadan önce yakıtınızı tamamlamak ve mola vermek için Yunanistan'ın en iyi otoyol tesislerinden biridir (Olympus Plaza).",
+        "Features": [
+          "24 Saat Açık",
+          "Olympus Plaza Kafe & Market",
+          "Yüksek Güvenlik",
+          "Uzun Etaba Çıkış Noktası"
+        ],
+        "MapUrl": "https://www.google.com/maps/search/?api=1&query=SEA+Korinou+Olympus+Plaza+Katerini"
+      }
+    ]
+  }
+}

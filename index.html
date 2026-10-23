@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#103f3b">
+  <meta name="description" content="23–29 Ekim 2026 Özel Yunanistan Yolculuk ve Seyahat Rehberi: Kavala, Selanik, Halkidiki, Vergina, Meteora ve İskeçe.">
+  <title id="pageTitle">Yunanistan Özel Seyahat Rehberi · 23–29 Ekim 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loading" id="loading" aria-live="polite"><span></span> Rota hazırlanıyor…</div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Yolculuk Rehberi ana sayfa">
+      <span class="brand-mark" id="brandMark">GR</span>
+      <span><span id="brandName">Yunanistan Rotası</span><small id="brandSubtitle">Özel Gezi Planı</small></span>
+    </a>
+    
+    <div class="tour-switch" id="tourSwitch" role="group" aria-label="Tur Seçimi">
+      <button class="tour-btn active" data-tour="yunanistan" type="button">🇬🇷 Yunanistan</button>
+    </div>
+
+    <nav class="desktop-nav" aria-label="Ana menü">
+      <a class="active" href="#rota">Rota</a>
+      <a href="#program">Program</a>
+      <a href="#rehber">Seyahat rehberi</a>
+    </nav>
+    
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <button class="header-sos-btn" id="openSosBtn" type="button" title="Restoranlarda Garsona Gösterilecek Çölyak & Helal Kartı">🚨 Garson Kartı</button>
+      <a class="header-map" id="headerMap" target="_blank" rel="noreferrer">Haritada aç <span>↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <img id="heroImg" src="assets/greece-hero.jpg" alt="Meteora manastırları ve antik dağ yolu">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow" id="heroDates">23 — 29 Ekim 2026</p>
+        <h1 id="heroTitle">Ege ve Antik Makedonya.<br><em>Tek unutulmaz rota.</em></h1>
+        <p class="hero-lead" id="heroLead">İstanbul’dan Meteora kayalıklarına, Selanik ve Kavala’dan Ege kıyılarına uzanan 1.895 kilometrelik güvenli otoyol yolculuğu.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#program">Programı keşfet <span>↓</span></a>
+          <a class="button button-ghost" id="heroMap" target="_blank" rel="noreferrer">Google Maps <span>↗</span></a>
+          <button class="button button-sos" id="heroSosBtn" type="button">🚨 Garson Kartı (SOS) <span>📋</span></button>
+        </div>
+      </div>
+      <div class="hero-stats" id="heroStats"></div>
+    </section>
+
+    <section class="route-section section" id="rota">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="kicker" id="routeKicker">Genel bakış</p>
+          <h2 id="routeHeading">Altı günde<br><em>Kuzey Yunanistan</em></h2>
+        </div>
+        <p id="routeIntro"></p>
+      </div>
+      <div class="route-card">
+        <div class="route-line" id="routeLine"></div>
+        <a id="routeMap" class="route-map-link" target="_blank" rel="noreferrer">Tam rotayı haritada görüntüle <span>↗</span></a>
+      </div>
+      <details class="route-decisions" id="routeDecisions"></details>
+    </section>
+
+    <section class="itinerary-section section" id="program">
+      <div class="section-heading">
+        <p class="kicker light">Gün gün program</p>
+        <h2 class="light">Her gün yeni bir <em>hikâye</em></h2>
+      </div>
+      <div class="day-tabs" id="dayTabs" role="tablist" aria-label="Gezi günleri"></div>
+      <div id="dayDetail" aria-live="polite"></div>
+    </section>
+
+    <section class="guide-section section" id="rehber">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="kicker">Yola çıkmadan</p>
+          <h2>Hazırlıklı git,<br><em>anı biriktir</em></h2>
+        </div>
+        <p id="guideIntroText">Belgelerden araç kontrollerine, konaklama detaylarından çölyak ve domuz eti içermeyen mutfak rehberine kadar tüm notlar.</p>
+      </div>
+      <div class="guide-tabs" id="guideTabs" role="tablist">
+        <button class="active" data-guide="summary">Özet</button>
+        <button data-guide="sos" id="guideSosTab">🚨 Garson Kartı</button>
+        <button data-guide="food">Yemek & Çölyak</button>
+        <button data-guide="stations">⛽ Otoyol Tesisleri (ΣΕΑ)</button>
+        <button data-guide="money">Para & Gişeler</button>
+        <button data-guide="borders">Sınırlar</button>
+        <button data-guide="car">Araç & Sürüş</button>
+        <button data-guide="stay">Konaklama</button>
+        <button data-guide="documents">Belgeler</button>
+        <button data-guide="packing">Valiz</button>
+        <button data-guide="sources">Kaynaklar</button>
+      </div>
+      <div class="guide-content" id="guideContent"></div>
+    </section>
+
+    <section class="closing">
+      <div>
+        <p class="kicker light">Yol seni bekliyor</p>
+        <h2>Hazırsan,<br><em>kontak çevir.</em></h2>
+      </div>
+      <p id="disclaimer"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><span class="brand-mark" id="footerMark">GR</span><span><span id="footerBrandName">Yunanistan Rotası</span><small id="footerDates">23–29 Ekim 2026</small></span></div>
+    <p>İyi yolculuklar · <span id="year"></span></p>
+  </footer>
+
+  <nav class="mobile-nav" aria-label="Mobil menü">
+    <a href="#rota"><span>⌁</span>Rota</a>
+    <a href="#program"><span>◷</span>Program</a>
+    <a href="#rehber"><span>✓</span>Rehber</a>
+  </nav>
+
+  <!-- SOS GARSON KARTI MODALI -->
+  <div class="sos-modal-overlay" id="sosModal" role="dialog" aria-modal="true" aria-labelledby="sosModalTitle">
+    <div class="sos-modal-dialog">
+      <button class="sos-modal-close" id="closeSosBtn" aria-label="Kapat" type="button">×</button>
+      <div class="sos-modal-header">
+        <h2 id="sosModalTitle">🚨 Restoranlarda Garsona Gösterilecek Yunanca Kart</h2>
+        <p>Restorana oturduğunuzda sipariş vermeden önce bu ekranı doğrudan garsona veya mutfak şefine okutun. Hem <strong>Çölyak hastalığını (çapraz bulaşma dahil)</strong> hem de <strong>domuz eti/yağı tüketmediğinizi</strong> eksiksiz ve resmi bir dille açıklar:</p>
+      </div>
+      
+      <div class="greek-display-card">
+        <div class="greek-display-header">
+          <h3>🇬🇷 ΠΡΟΣΟΧΗ: ΑΥΣΤΗΡΗ ΔΙΑΤΡΟΦΙΚΗ ΟΔΗΓΙΑ (ΚΟΙΛΙΟΚΑΚΗ & ΧΩΡΙΣ ΧΟΙΡΙΝΟ)</h3>
+          <button class="btn-copy-greek" id="copyGreekBtn" type="button">📋 Yunanca Metni Kopyala</button>
+        </div>
+        <p class="greek-raw-text" id="greekRawText">
+          Γεια σας! Η σύζυγός μου πάσχει από <strong>κοιλιοκάκη (σοβαρή αλλεργία στη γλουτένη)</strong>. Δεν μπορεί να καταναλώσει απολύτως τίποτα που να περιέχει σιτάρι, κριθάρι, σίκαλη ή αλεύρι (ούτε σε σάλτσες, ούτε σε μαρινάδες). Επίσης, το φαγητό της <strong>δεν πρέπει να έρθει σε επαφή (επιμόλυνση)</strong> με λάδι φριτέζας όπου τηγανίστηκαν τρόφιμα με αλεύρι, ή με επιφάνειες/σκεύη που έχουν γλουτένη.<br><br>
+          Επιπλέον, για θρησκευτικούς λόγους, <strong>δεν τρώμε καθόλου χοιρινό κρέας, μπέικον, ζαμπόν ή ζωικό λίπος χοιρινού</strong>.<br><br>
+          Μπορείτε σας παρακαλώ να μας προτείνετε ασφαλή πιάτα (π.χ. φρέσκο ψάρι ή θαλασσινά στη σχάρα, ψητό κοτόπουλο/αρνί ή καθαρά λαχανικά με ελαιόλαδο και λεμόνι); Σας ευχαριστούμε πολύ!
+        </p>
+        <div class="tr-quote">
+          <strong>Türkçe Çevirisi:</strong> "Merhaba! Eşim çölyak hastasıdır (ciddi gluten alerjisi). Buğday, arpa, çavdar veya un içeren hiçbir şeyi (soslarda veya marinasyonlarda dahi) tüketemez. Ayrıca yemeği, unlu gıdaların kızartıldığı fritöz yağıyla veya glutenli yüzey/ekipmanlarla temas etmemelidir (çapraz bulaşma olmamalıdır). Ek olarak, dini sebeplerle hiçbir şekilde domuz eti, pastırması, jambonu veya domuz yağı yemiyoruz. Bize güvenli tabaklar (örneğin ızgara taze balık/deniz ürünleri, ızgara tavuk/kuzu veya sadece zeytinyağı ve limonlu sebzeler) önerebilir misiniz? Çok teşekkür ederiz!"
+        </div>
+      </div>
+
+      <div class="sos-guide-grid">
+        <div class="sos-guide-box safe">
+          <h4>✅ Doğal Glutensiz & Güvenli Seçenekler</h4>
+          <ul>
+            <li><strong>Psari Skaras (Ψάρι Σχάρας):</strong> Izgara taze balık (Sadece zeytinyağı & limon sosu ile).</li>
+            <li><strong>Htapodi Skaras (Χταπόδι Σχάρας):</strong> Izgara ahtapot (Unsuz, doğal ızgara).</li>
+            <li><strong>Kalamari Skaras:</strong> Tava kızartma (Tiganita) unludur; mutlaka <em>Skaras</em> (ızgara) isteyin.</li>
+            <li><strong>Horiatiki:</strong> Klasik Yunan salatası (Peksimetsiz/paximadi olmadan).</li>
+            <li><strong>Fava & Köz Patlıcan:</strong> Ekmeksiz tüketildiğinde %100 doğal glutensiz.</li>
+          </ul>
+        </div>
+        <div class="sos-guide-box warning">
+          <h4>⚠️ Kaçınılması Gereken Gizli Tuzaklar</h4>
+          <ul>
+            <li><strong>Tiganita (Kızartmalar):</strong> Kabak kızartması, kalamar tava ve patatesler aynı fritözde kızarır.</li>
+            <li><strong>Köfteler (Keftedes):</strong> Ekmek içi ve %50 domuz kıyması karışımı sıkça kullanılır.</li>
+            <li><strong>Gyros / Souvlaki:</strong> Tavuk dahi olsa domuz döneriyle aynı ızgarada pişebilir.</li>
+            <li><strong>Kavala Kurabiyesi:</strong> Domuz yağı riski ve buğday unu (Eşiniz kesinlikle tüketmemelidir).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+

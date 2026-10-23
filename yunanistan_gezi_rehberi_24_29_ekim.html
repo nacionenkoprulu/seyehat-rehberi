@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunanistan Özel Seyahat Rehberi (24-29 Ekim)</title>
+    <style>
+        :root {
+            --primary: #0d47a1;
+            --primary-light: #1976d2;
+            --secondary: #00897b;
+            --accent: #f57c00;
+            --danger: #d32f2f;
+            --success: #2e7d32;
+            --bg: #f4f7f9;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #002171 100%);
+            color: white;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.05rem;
+            opacity: 0.9;
+            max-width: 750px;
+            margin: 0 auto 1.2rem auto;
+        }
+
+        .badge-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 1rem;
+        }
+
+        .top-badge {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: flex;
+            overflow-x: auto;
+            padding: 0.6rem 1rem;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            white-space: nowrap;
+            transition: all 0.2s;
+            background: #f1f5f9;
+        }
+
+        nav a:hover, nav a.active-sos {
+            background: var(--primary);
+            color: white;
+        }
+
+        nav a.sos-btn {
+            background: #ffebee;
+            color: var(--danger);
+            border: 1px solid #ffcdd2;
+        }
+
+        nav a.sos-btn:hover {
+            background: var(--danger);
+            color: white;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.2rem;
+        }
+
+        .section-card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .sos-card {
+            border: 2px solid var(--danger);
+            background: #fffafa;
+        }
+
+        .sos-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid #ffcdd2;
+            padding-bottom: 0.8rem;
+        }
+
+        .sos-header h2 {
+            color: var(--danger);
+            font-size: 1.5rem;
+        }
+
+        .greek-box {
+            background: white;
+            border-left: 5px solid var(--danger);
+            padding: 1.4rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            margin-bottom: 1.2rem;
+        }
+
+        .greek-box h3 {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 0.6rem;
+        }
+
+        .greek-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #111;
+            line-height: 1.65;
+            margin-bottom: 0.8rem;
+        }
+
+        .tr-translation {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            border-top: 1px dashed var(--border);
+            padding-top: 0.7rem;
+            font-style: italic;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0.55rem 1.1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.88rem;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        .btn-primary:hover {
+            background: var(--primary-light);
+        }
+
+        .btn-parking {
+            background: #e3f2fd;
+            color: var(--primary);
+            border: 1px solid #90caf9;
+        }
+        .btn-parking:hover {
+            background: #bbdefb;
+        }
+
+        .btn-food {
+            background: #e8f5e9;
+            color: var(--success);
+            border: 1px solid #a5d6a7;
+        }
+        .btn-food:hover {
+            background: #c8e6c9;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        .day-header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(90deg, #0d47a1, #1976d2);
+            color: white;
+            padding: 1.2rem 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+        }
+
+        .day-header h2 {
+            font-size: 1.4rem;
+        }
+
+        .hotel-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+        }
+
+        .alert-box {
+            background: #fff8e1;
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.2rem;
+            border-radius: 8px;
+            margin-bottom: 1.4rem;
+            font-size: 0.95rem;
+        }
+
+        .alert-box strong {
+            color: #e65100;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 24px;
+            border-left: 3px solid #cbd5e1;
+            margin: 1.5rem 0;
+        }
+
+        .stop-item {
+            position: relative;
+            margin-bottom: 1.6rem;
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            padding: 1.2rem;
+            border-radius: 10px;
+        }
+
+        .stop-item::before {
+            content: "";
+            position: absolute;
+            left: -32px;
+            top: 18px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px var(--primary);
+        }
+
+        .stop-time {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 3px 9px;
+            border-radius: 5px;
+            margin-bottom: 6px;
+        }
+
+        .stop-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            color: #0f172a;
+        }
+
+        .history-box {
+            background: #eff6ff;
+            border-left: 3px solid var(--primary-light);
+            padding: 0.75rem 1rem;
+            margin: 0.7rem 0;
+            font-size: 0.92rem;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.2rem;
+            margin-top: 1.2rem;
+        }
+
+        .info-panel {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.2rem;
+        }
+
+        .info-panel h4 {
+            font-size: 1.05rem;
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .place-list {
+            list-style: none;
+        }
+
+        .place-list li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .place-list li:last-child {
+            border-bottom: none;
+        }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+
+        .tag-gf {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .tag-halal {
+            background: #e0f2fe;
+            color: #075985;
+        }
+
+        .tag-park {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        @media print {
+            nav { display: none; }
+            .section-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🇬🇷 Yunanistan Özel Yolculuk & Rehber Sitesi</h1>
+    <p>24 – 29 Ekim | İstanbul Çıkışlı 1.895 KM Güvenli Otoyol Rotası, Otopark Noktaları, Tarihi Rehber & Çölyak / Domuz Eti İçermeyen Mutfak Kılavuzu</p>
+    <div class="badge-bar">
+        <span class="top-badge">🚗 İlk Yurt Dışı Sürüşüne Uygun (A2 & A1 Otoyolu)</span>
+        <span class="top-badge">🚇 Selanik Metro Park & Ride</span>
+        <span class="top-badge">🌾 %100 Çölyak (Glutensiz) İletişim Kartlı</span>
+        <span class="top-badge">🐟 Domuz Eti İçermeyen (Deniz Ürünleri & Vejetaryen) Odaklı</span>
+    </div>
+</header>
+
+<nav>
+    <a href="#sos-karti" class="sos-btn">🚨 Garson İletişim Kartı (Çölyak & Domuz Eti Yok)</a>
+    <a href="#genel-harita">🗺️ Ana Rota</a>
+    <a href="#gun1">24 Eki: Kavala</a>
+    <a href="#gun2">25 Eki: Selanik</a>
+    <a href="#gun3">26 Eki: Afytos</a>
+    <a href="#gun4">27 Eki: Vergina & Meteora</a>
+    <a href="#gun5">28 Eki: Dion & İskeçe</a>
+    <a href="#gun6">29 Eki: Porto Lagos</a>
+</nav>
+
+<div class="container">
+
+    <!-- SOS GARSON KARTI -->
+    <section id="sos-karti" class="section-card sos-card">
+        <div class="sos-header">
+            <h2>🚨 Restoranlarda Garsona Gösterilecek Yunanca Kart</h2>
+            <button class="btn btn-danger" onclick="copyGreekText()">📋 Yunanca Metni Kopyala</button>
+        </div>
+        <p style="margin-bottom: 1rem;">Restorana oturduğunuzda sipariş vermeden önce telefonunuzdan bu ekranı doğrudan garsona veya mutfak şefine okutun. Hem <strong>Çölyak hastalığını (çapraz bulaşma dahil)</strong> hem de <strong>domuz eti / domuz yağı tüketmediğinizi</strong> eksiksiz ve resmi bir dille açıklar:</p>
+
+        <div class="greek-box">
+            <h3>🇬🇷 ΠΡΟΣΟΧΗ: ΑΥΣΤΗΡΗ ΔΙΑΤΡΟΦΙΚΗ ΟΔΗΓΙΑ (ΚΟΙΛΙΟΚΑΚΗ & ΧΩΡΙΣ ΧΟΙΡΙΝΟ)</h3>
+            <p id="greek-card-text" class="greek-text">
+                Γεια σας! Η σύζυγός μου πάσχει από <strong>κοιλιοκάκη (σοβαρή αλλεργία στη γλουτένη)</strong>. Δεν μπορεί να καταναλώσει απολύτως τίποτα που να περιέχει σιτάρι, κριθάρι, σίκαλη ή αλεύρι (ούτε σε σάλτσες, ούτε σε μαρινάδες). Επίσης, το φαγητό της <strong>δεν πρέπει να έρθει σε επαφή (επιμόλυνση)</strong> με λάδι φριτέζας όπου τηγανίστηκαν τρόφιμα με αλεύρι, ή με επιφάνειες/σκεύη που έχουν γλουτένη.<br><br>
+                Επιπλέον, για θρησκευτικούς λόγους, <strong>δεν τρώμε καθόλου χοιρινό κρέας, μπέικον, ζαμπόν ή ζωικό λίπος χοιρινού</strong>.<br><br>
+                Μπορείτε σας παρακαλώ να μας προτείνετε ασφαλή πιάτα (π.χ. φρέσκο ψάρι ή θαλασσινά στη σχάρα, ψητό κοτόπουλο/αρνί ή καθαρά λαχανικά με ελαιόλαδο και λεμόνι); Σας ευχαριστούμε πολύ!
+            </p>
+            <div class="tr-translation">
+                <strong>Türkçe Çevirisi:</strong> "Merhaba! Eşim çölyak hastasıdır (ciddi gluten alerjisi). Buğday, arpa, çavdar veya un içeren hiçbir şeyi (soslarda veya marinasyonlarda dahi) tüketemez. Ayrıca yemeği, unlu gıdaların kızartıldığı fritöz yağıyla veya glutenli yüzey/ekipmanlarla temas etmemelidir (çapraz bulaşma olmamalıdır). Ek olarak, dini sebeplerle hiçbir şekilde domuz eti, pastırması, jambonu veya domuz yağı yemiyoruz. Bize güvenli tabaklar (örneğin ızgara taze balık/deniz ürünleri, ızgara tavuk/kuzu veya sadece zeytinyağı ve limonlu sebzeler) önerebilir misiniz? Çok teşekkür ederiz!"
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <div class="info-panel">
+                <h4>✅ Yunan Mutfağında Doğal Glutensiz & Helal Seçenekler</h4>
+                <ul class="place-list">
+                    <li><strong>Psari Skaras (Ψάρι Σχάρας):</strong> Izgara taze balık (Sadece zeytinyağı ve limon sosu=Ladolemono ile).</li>
+                    <li><strong>Htapodi Skaras (Χταπόδι Σχάρας):</strong> Izgara ahtapot (Unlanmadığından emin olun, ızgara olanı tamamen doğaldır).</li>
+                    <li><strong>Kalamari Skaras (Καλαμάρι Σχάρας):</strong> Tavada kızartma (Tiganita) unlu olduğu için yasaktır; mutlaka <strong>"Skaras" (Izgara)</strong> isteyin.</li>
+                    <li><strong>Horiatiki Salata (Χωριάτικη):</strong> Klasik Yunan salatası (Domates, salatalık, zeytin, saf zeytinyağı ve Feta peyniri). <em>Not: Üzerine peksimet (paximadi) koymamalarını söyleyin.</em></li>
+                    <li><strong>Fava & Melitzanosalata:</strong> Sarı mercimek püresi (Fava) ve köz patlıcan salatası (Ekmeksiz tüketildiğinde doğal glutensizdir).</li>
+                </ul>
+            </div>
+            <div class="info-panel">
+                <h4>⚠️ Gizli Gluten & Domuz Eti Tuzakları (Kaçının!)</h4>
+                <ul class="place-list">
+                    <li><strong>Tiganita (Τηγανητά - Kızartmalar):</strong> Kabak kızartması, kalamar tava ve patates kızartması genellikle unlanır veya aynı fritözde pişer.</li>
+                    <li><strong>Keftedes / Soutzoukakia (Köfteler):</strong> Yunan köftelerinde hem ekmek içi (gluten) hem de %50 dana - %50 domuz kıyması karışımı sıkça kullanılır.</li>
+                    <li><strong>Gyros / Souvlaki:</strong> Tavuk (Kotopoulo) olsa bile domuz döneriyle aynı ızgarada pişebilir veya soslarında gluten bulunabilir. Deniz ürünleri ve tencere/fırın kuzu yemekleri çok daha güvenlidir.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- GENEL HARİTA VE SÜRÜŞ PRENSİPLERİ -->
+    <section id="genel-harita" class="section-card">
+        <h2>🗺️ Genel Sürüş Stratejisi ve Ana Google Maps Rotası</h2>
+        <p style="margin-top: 0.5rem; margin-bottom: 1rem;">
+            İlk kez yurt dışına kendi aracınızla çıkacağınız için rotanızdaki tüm tehlikeli dağ ve köy yolları elenmiştir. Ana geçişleriniz tamamen <strong>A2 (Egnatia Odos)</strong> ve <strong>A1</strong> bölünmüş ücretli otoyolları üzerinden planlanmıştır. Gişe ücretleri 1,50 € – 3,00 € arasındadır; hem kredi kartı hem nakit geçer.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 1rem;">
+            <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/dir/%C4%B0stanbul,+T%C3%BCrkiye/%C4%B0psala+S%C4%B1n%C4%B1r+Kap%C4%B1s%C4%B1,+K%C3%B6pr%C3%BC,+%C4%B0psala%2FEdirne,+T%C3%BCrkiye/Atlas+Boutique+Suites,+%CE%9A%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CF%85+1,+%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/(%CE%BC)+Metro+Station+%22Nea+Elvetia%22,+Michail+Psellou,+Thessaloniki,+Greece/Atlantis+''pleasure+By+The+Sea'',+Pavlou+Kountouriotou+51,+Perea,+Yunanistan/Free+Parking+1+Afytos,+4C3M%2B76,+Kassandra,+Greece/Aigai+Kraliyet+Mezarlar%C4%B1+M%C3%BCzesi,+Vergina,+Yunanistan/Hotel+Kaikis,+Trikalon+146,+Kalampaka,+Yunanistan/Archaeological+Site+of+Dion,+Eparchiaki+Odos+Katerinis+-+Limena+Litochoriou+910,+Dion,+Greece/Petrinos+Lofos,+Mandra,+Mandra,+67061,+Avdira,+Greece/%CE%99%CE%B5%CF%81%CE%AC+%CE%9C%CE%BF%CE%BD%CE%AE+%CE%91%CE%B3%CE%AF%CE%BF%CF%85+%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%AC%CE%BF%CF%85,+Porto+Lagos,+Yunanistan/%C4%B0stanbul,+T%C3%BCrkiye">
+                📍 1.895 KM Tüm Duraklar Google Maps Sürüş Haritasını Aç
+            </a>
+        </div>
+        <div class="alert-box">
+            <strong>⛽ Yakıt & Evrak Hatırlatması:</strong> İpsala Sınır Kapısı'na girmeden hemen önce Türkiye tarafında deponuzu tamamen doldurun. Yeşil Sigorta (Green Card), yeni tip çipli ehliyet ve ruhsatınızı torpido gözünde hazır bulundurun.
+        </div>
+    </section>
+
+    <!-- 1. GÜN: KAVALA -->
+    <section id="gun1" class="section-card">
+        <div class="day-header">
+            <h2>1. Gün: 24 Ekim Cumartesi | İstanbul – İpsala – Kavala</h2>
+            <div class="hotel-badge">🏨 Otel: Atlas Boutique Suites (Rez: 6917068317)</div>
+        </div>
+
+        <div class="alert-box">
+            <strong>⏰ Kritik Saat Uyarısı:</strong> Kavalalı Mehmet Ali Paşa Evi Müzesi Cumartesi günleri <strong>14:30'da kapanmaktadır</strong>. Kavala'ya varır varmaz aracınızı limana park edip ilk iş olarak yarımadanın ucundaki müzeye yürüyün!
+        </div>
+
+        <div class="grid-2">
+            <div class="info-panel">
+                <h4>🅿️ Kavala Otopark Noktaları (Aracı Bırak & Yürü)</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-park">Ana Öneri</span> <strong>Πάρκινγκ Τελωνείου (Gümrük/Liman Otoparkı)</strong><br>
+                        Dar sokaklara hiç girmeden sahil yolundan doğrudan girilen, 24 saat açık, düz ayak güvenli otopark. Otelinize ve Eski Şehir girişine 5 dk yürüme mesafesinde.<br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Parking+Teloneiou+Kavala&query_place_id=ChIJbQpGQAC7rhQRmvMbtsMH1dc">📍 Haritada Aç</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-park">Alternatif</span> <strong>Liman Ücretsiz Otopark Alanı</strong><br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Free+Parking+Kavala&query_place_id=ChIJrZ_1_Qe7rhQRphd5tu4RJVg">📍 Haritada Aç</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-panel">
+                <h4>🍽️ Kavala Yemek & Lezzet Önerileri (Domuz Eti Yok & Çölyak Uygun)</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-halal">Deniz Ürünleri</span> <span class="tag tag-gf">Glutensiz Izgara</span> <strong>Savvas Seafood Restaurant</strong><br>
+                        Liman sonunda marina manzaralı, taze ızgara balık, ızgara ahtapot ve zeytinyağlı salatalarıyla ünlü nezih restoran. Garsona SOS kartını göstererek ızgara balık (Psari Skaras) sipariş edebilirsiniz.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Savvas+Kavala&query_place_id=ChIJofdIEWG7rhQRLZmr6bCsNwc">📍 Restoran Konumu</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-halal">Kurabiye Uyarısı</span> <strong>Kavala Kurabiyesi (Kourabiedes):</strong> Geleneksel Kavala kurabiyelerinde bazen domuz yağı (lard) kullanılabilmektedir. Alırken mutlaka <em>"Me voutyro galaktos, horis hoirino lipos" (Süt tereyağlı, domuz yağsız)</em> olduğunu teyit edin. (Buğday unu içerdiği için sadece sizin içindir, eşiniz tüketmemelidir).
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 1.5rem;">🏛️ Ardışık Yürüyüş Rotası ve Tarihi Bilgiler</h3>
+        <div class="timeline">
+            <div class="stop-item">
+                <span class="stop-time">12:30 – 13:00</span>
+                <div class="stop-title">1. Atlas Boutique Suites & Liman Otoparkı</div>
+                <p>Otelinize yerleşme ve aracın liman otoparkına bırakılması.</p>
+                <a class="btn btn-primary" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Atlas+Boutique+Suites+Kavala&query_place_id=ChIJaw0ige67rhQRDajTgxkIakM">📍 Otel Konumu</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">13:15 – 14:15</span>
+                <div class="stop-title">2. Kavalalı Mehmet Ali Paşa Evi ve Heykeli (Panagia)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> 1769'da Kavala'da doğan ve Mısır Valisi olarak Osmanlı tarihinde derin izler bırakan Kavalalı Mehmet Ali Paşa'nın doğduğu konaktır (18. yüzyıl). Döneminin en zengin sivil Osmanlı mimarisi örneklerinden biri olan yapı, haremlik ve selamlık bölümleri ile denize nazır muazzam bir avluya sahiptir. Önündeki bronz atlı heykel 1934 yılında Mısır halkının hediyesi olarak dikilmiştir.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=House+of+Mohamed+Ali+Kavala&query_place_id=ChIJo3DRBne7rhQR8bEPnW623F4">📍 Konumu Aç</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">14:15 – 15:15</span>
+                <div class="stop-title">3. İmarethane (İmaret) & Halil Bey Külliyesi</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Mehmet Ali Paşa Evi'nden yokuş aşağı inerken hemen sağınızda yer alan <strong>İmarethane</strong>, 1817–1821 yılları arasında Mehmet Ali Paşa tarafından memleketine vakıf olarak yaptırılmış; içerisinde iki medrese, iki mescit, aşevi ve mektep barındıran 18 kubbeli devasa bir Osmanlı külliyesidir. Hemen üst sokağındaki <strong>Halil Bey Camii ve Medresesi (Παλαιά Μουσική)</strong> ise 16. yüzyıl yapısı olup, caminin tabanındaki cam bölmeden altında yer alan erken Hristiyanlık bazilikası kalıntılarını gösterir.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Imaret+Kavala&query_place_id=ChIJJaL32Xa7rhQRRNVCrexiF5A">📍 İmarethane</a>
+                <a class="btn btn-parking" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Halil+Bey+Mosque+Kavala&query_place_id=ChIJjWhIO3e7rhQRpkO9jCL3e6M">📍 Halil Bey Camii</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">15:30 – 16:30</span>
+                <div class="stop-title">4. Kavala Su Kemeri (Kamares)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Yarımadadan şehir düzlüğüne indiğinizde tam karşınıza çıkan 270 metre uzunluğundaki ve 25 metre yüksekliğindeki çift katlı kemer, Roma ve Bizans temelleri üzerine 1530 yılında <strong>Kanuni Sultan Süleyman</strong> tarafından onartılıp yükseltilerek Panagia yarımadasına su taşımak amacıyla inşa edilmiştir.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Kavala+Aqueduct&query_place_id=ChIJzYhRP3C7rhQR1N75FBRP1CQ">📍 Konumu Aç</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. GÜN: SELANİK -->
+    <section id="gun2" class="section-card">
+        <div class="day-header">
+            <h2>2. Gün: 25 Ekim Pazar | Kavala – Selanik (Metro İle Merkez Turu) – Perea</h2>
+            <div class="hotel-badge">🏨 Otel: Atlantis ''Pleasure by the Sea'' - Perea (Rez: 6741250915)</div>
+        </div>
+
+        <div class="alert-box">
+            <strong>🚇 Metro & Park Et Devam Et Stratejisi:</strong> Selanik şehir merkezine aracınızla kesinlikle girmeyin. Çevre yolundan önce tepedeki <strong>Ano Poli (Yedikule)</strong> kalesine uğrayın, ardından şehrin doğu ucundaki <strong>Nea Elvetia Metro İstasyonu</strong> otoparkına aracınızı bırakıp merkeze metroyla inin. Yürüyüş rotanız <strong>Sintrivani</strong> durağından başlayıp yokuş aşağı akacak ve <strong>Venizelou</strong> durağından metroyla otoparka dönerek tamamlanacaktır.
+        </div>
+
+        <div class="grid-2">
+            <div class="info-panel">
+                <h4>🅿️ & 🚇 Selanik Metro ve Otopark Noktaları</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-park">Park & Ride</span> <strong>(μ) Metro Station "Nea Elvetia"</strong><br>
+                        Ana metro hattının başlangıç istasyonu ve 650 araçlık otopark alanı. Aracınızı buraya bırakıp metroya binin.<br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Metro+Station+Nea+Elvetia+Thessaloniki&query_place_id=ChIJ99sJPwA5qBQRm18YA2tev9c">📍 Metro Otopark Konumu</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-park">İniş Durağı</span> <strong>Sintrivani Metro İstasyonu</strong> (Atatürk Evi'ne 7 dk)<br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Sintrivani+Metro+Thessaloniki&query_place_id=ChIJlYF4z_84qBQRCBbDsGE5U0w">📍 Sintrivani Durağı</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-park">Dönüş Durağı</span> <strong>Venizelou Metro İstasyonu (Antik Müze)</strong><br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Venizelou+Metro+Thessaloniki&query_place_id=ChIJC2532Kc5qBQRKQxVlUy42Uw">📍 Venizelou Durağı</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-panel">
+                <h4>🍽️ Selanik & Perea Glutensiz / Deniz Ürünleri Önerileri</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-gf">Glutensiz Dostu</span> <span class="tag tag-halal">Deniz Ürünleri</span> <strong>7 Thalasses (Selanik Merkez)</strong><br>
+                        Aristotelous Meydanı'na yürüme mesafesinde, Selanik'in en prestijli deniz ürünleri restoranlarından biri. Çölyak konusunda bilinçli mutfağı ve taze ızgara balıklarıyla öğle yemeği için en güvenli adres.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=7+Thalasses+Thessaloniki&query_place_id=ChIJQ1mkAwk5qBQRZ2YDo3HUhJQ">📍 Konumu Aç</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-gf">Glutensiz Pizza/Makarna</span> <strong>Basilico (Selanik Sahil - Nikis Bulvarı)</strong><br>
+                        Beyaz Kule ile Aristotelous arasında, sahil kordonunda yer alır; özel glutensiz pizza ve sebzeli/deniz ürünlü seçenekler sunar.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Basilico+Thessaloniki&query_place_id=ChIJK1zTLAQ5qBQR8b-rPi8co3M">📍 Konumu Aç</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-gf">Çölyak Efsanesi</span> <strong>To Manitari (Kalamaria - Perea Yolu Üzeri)</strong><br>
+                        Akşam otele dönerken yolunuzun üzerinde bulunan, Selanik'te çölyak hastalarının 1 numaralı favorisi olan Akdeniz restoranı.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=To+Manitari+Thessaloniki&query_place_id=ChIJ4YlzWdQ-qBQRu1cFq0ey4rg">📍 Konumu Aç</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-halal">Otelinizin Yanı</span> <strong>Taverna Thalassopoulia (Perea Sahili)</strong><br>
+                        Perea'daki otelinizle aynı cadde üzerinde (No: 51), denize sıfır taze balık tavernası.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Taverna+Thalassopoulia+Perea&query_place_id=ChIJ58tmIukVqBQRsaCsDIMrUXs">📍 Konumu Aç</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 1.5rem;">🏛️ Ardışık Gezi Rotası (Yokuş Aşağı Sıralı) ve Tarihi Bilgiler</h3>
+        <div class="timeline">
+            <div class="stop-item">
+                <span class="stop-time">10:15 – 11:15</span>
+                <div class="stop-title">1. Ano Poli (Yukarı Şehir) & Yedikule (Heptapyrgion / Επταπύργιο)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> 1917 Büyük Selanik Yangını'ndan kurtulan tek tarihi Osmanlı-Bizans mahallesi olan Ano Poli'nin zirvesinde yer alır. Bizans döneminde akropol kalesi olarak inşa edilmiş, 1430'da II. Murad tarafından Selanik'in fethinden sonra İstanbul'daki Yedikule örnek alınarak 7 kuleli bir Osmanlı garnizonuna dönüştürülmüştür.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Heptapyrgion+Thessaloniki&query_place_id=ChIJV7rX5U44qBQROp_AVgN38yc">📍 Yedikule Konumu</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">12:00 – 13:00</span>
+                <div class="stop-title">2. Mustafa Kemal Atatürk Evi Müzesi (Sintrivani Metrodan 7 Dk Yürüyüş)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> 1870 yılında Rodoslu Hacı Mehmet Vakfı tarafından inşa edilen üç katlı pembe köşk, Ali Rıza Efendi ve Zübeyde Hanım tarafından kiralanmış ve Gazi Mustafa Kemal Atatürk 1881 yılında bu evin ikinci katındaki ocaklı odada dünyaya gelmiştir. Türkiye Cumhuriyeti'nin Selanik Başkonsolosluğu yerleşkesi içinde yer alır ve giriş ücretsizdir.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Ataturk+Museum+Thessaloniki&query_place_id=ChIJiTHTulM4qBQRrAsHHFdervQ">📍 Atatürk Evi Konumu</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">13:10 – 14:15</span>
+                <div class="stop-title">3. Galerius Rotundası ve Galerius Kemeri (Kamara)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Atatürk Evi'nden yokuş aşağı 6 dakika yürüdüğünüzde karşınıza çıkan <strong>Rotunda</strong>, MS 306 yılında Roma İmparatoru Galerius tarafından kendi anıt mezarı veya Zeus tapınağı olarak Roma'daki Pantheon'a benzer şekilde (6,3 metre duvar kalınlığıyla) inşa edilmiştir. 1590'da <strong>Sultan Hortacî Süleyman Efendi Camii</strong>'ne çevrilmiş olup, bahçesindeki minare Selanik'te ayakta kalan tek Osmanlı minaresidir. Hemen altındaki <strong>Galerius Kemeri (Kamara)</strong> ise imparatorun Sasanilere karşı kazandığı zaferi anlatan mermer rölyeflerle süslüdür.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Rotunda+Thessaloniki&query_place_id=ChIJz4i6VgA5qBQR8uS5nQItEx4">📍 Rotunda</a>
+                <a class="btn btn-parking" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Arch+of+Galerius+Thessaloniki&query_place_id=ChIJMSSAKqk5qBQRwssZ-H1wH6M">📍 Galerius Kemeri</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">14:30 – 15:45</span>
+                <div class="stop-title">4. Beyaz Kule (Λευκός Πύργος / Lefkos Pyrgos)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Kemerden sahile doğru düz indiğinizde sizi karşılayan 34 metre yüksekliğindeki silindirik kule, 1535 yılında <strong>Kanuni Sultan Süleyman</strong> döneminde Osmanlı liman tahkimatının doğu burcu olarak (büyük olasılıkla Mimar Sinan ekolüyle) inşa edilmiştir. Osmanlı döneminde "Kanlı Kule" olarak bilinen yapı, 1890'da beyaza boyanmasından itibaren Beyaz Kule adını almıştır.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=White+Tower+Thessaloniki&query_place_id=ChIJacxIJa85qBQRFi10gJ0wGO8">📍 Beyaz Kule Konumu</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">16:00 – 18:00</span>
+                <div class="stop-title">5. Aristotelous Meydanı & Venizelou Metro Açık Hava Müzesi</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Beyaz Kule'den sahil kordonu boyunca yürüyerek ulaşılan <strong>Aristotelous Meydanı</strong>, 1917 yangınından sonra Fransız mimar Ernest Hébrard tarafından Bizans ve Avrupa neoklasik mimarisinin senteziyle tasarlanmıştır. Meydanın hemen üst caddesindeki <strong>Venizelou Metro İstasyonu</strong> ise inşaat sırasında bulunan 1.600 yıllık Roma-Bizans mermer ana caddesini (Decumanus Maximus) olduğu gibi sergileyen eşsiz bir yer altı müzesidir. Buradan metroya binip aracınıza dönebilirsiniz.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Aristotelous+Square+Thessaloniki&query_place_id=ChIJ6coVkAg5qBQR4j9wLCNUa84">📍 Aristotelous Meydanı</a>
+                <a class="btn btn-parking" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Archeological+Metro+Museum+Venizelou&query_place_id=ChIJvxifAgA5qBQRIRR3fVB_rMc">📍 Venizelou Metro Müzesi</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">19:00</span>
+                <div class="stop-title">6. Perea'daki Otele Varış (Atlantis ''Pleasure by the Sea'')</div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Atlantis+Pleasure+By+The+Sea+Perea&query_place_id=ChIJv7lV5ewVqBQRp1rKJ-32kgw">📍 Otel Konumu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. GÜN: AFYTOS -->
+    <section id="gun3" class="section-card">
+        <div class="day-header">
+            <h2>3. Gün: 26 Ekim Pazartesi | Perea – Afytos (Halkidiki) – Perea</h2>
+            <div class="hotel-badge">🏨 Otel: Atlantis ''Pleasure by the Sea'' - Perea (Rez: 6741250915)</div>
+        </div>
+
+        <p style="margin-bottom: 1rem;">
+            Oteliniz Perea'da olduğu için Selanik şehir trafiğine hiç girmeden ücretsiz ve bölünmüş <strong>A24 otoyoluyla</strong> 50 dakikada Kassandra yarımadasındaki tarihi taş köy <strong>Afytos</strong>'a ulaşırsınız.
+        </p>
+
+        <div class="grid-2">
+            <div class="info-panel">
+                <h4>🅿️ Afytos Otopark & Glutensiz Fırın Uyarısı</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-park">Ücretsiz Otopark</span> <strong>Free Parking 1 Afytos</strong><br>
+                        Köyün taş sokaklarına araçla girmeyin; girişteki ücretsiz otoparka bırakıp düz ayak yürüyün.<br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Free+Parking+1+Afytos&query_place_id=ChIJxUz6KgArphQRvB6CX4_D8Bg">📍 Otopark Konumu</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-gf">%100 Glutensiz Fırın</span> <strong>Foodie's Art Gluten Free Bakery (Selanik)</strong><br>
+                        Pazartesi günü 08:30–13:00 arası açıktır! Pazar günü kapalı olduğu için Pazartesi sabahı eşiniz için %100 güvenli glutensiz börek (bougatsa), ekmek ve kurabiye stoklamak isterseniz uğrayabileceğiniz tamamen çölyak sertifikalı fırındır.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Foodies+Art+Gluten+Free+Bakery+Thessaloniki&query_place_id=ChIJUR0tSQA5qBQRHQH2BC0YAUI">📍 Fırın Konumu</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-panel">
+                <h4>🍽️ Afytos Yemek & Kafe Önerisi</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-halal">Deniz Manzaralı</span> <span class="tag tag-gf">Izgara Deniz Ürünü</span> <strong>Thea Thalassa (Afytos Falezler)</strong><br>
+                        Afytos'un ünlü uçurum kenarında ("Halkidiki'nin Balkonu"), Toroneos Körfezi'ne tepeden bakan muazzam manzaralı restoran. Izgara balık ve deniz ürünleri mevcuttur.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Thea+Thalassa+Afytos&query_place_id=ChIJHdf333sqphQRhgFyGidQpdc">📍 Restoran Konumu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 1.5rem;">🏛️ Afytos Yürüyüş Rotası ve Tarihi Bilgiler</h3>
+        <div class="timeline">
+            <div class="stop-item">
+                <span class="stop-time">10:30 – 16:00</span>
+                <div class="stop-title">Afytos Taş Meydanı, Folklor Müzesi (Aletras Konağı) ve Falez Yürüyüşü</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> MÖ 3000'den beri yerleşim gören antik <em>Aphytis</em> kenti üzerine kurulu olan Afytos, Aristo'nun da yazılarında bahsettiği zengin bir Makedon limanıydı. Köyün tamamı yerel gözenekli kireçtaşından (porolithos) inşa edilmiş 19. yüzyıl taş konaklarından oluşur. Meydandaki 1859 tarihli Agios Dimitrios Kilisesi ve 1889 yapımı Aletras Konağı (Afitos Folklor Müzesi) mimarisiyle dikkat çeker. Köyün deniz tarafındaki sarp kayalık yürüyüş yolu ("Vrachos"), Ege Denizi'ni kuşbakışı izleyen eşsiz bir doğal terastır.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Folklore+Museum+of+Afitos&query_place_id=ChIJPUrj7XsqphQRqnF5WcIMJKQ">📍 Afytos Meydan & Müze</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. GÜN: VERGİNA & METEORA -->
+    <section id="gun4" class="section-card">
+        <div class="day-header">
+            <h2>4. Gün: 27 Ekim Salı | Perea – Vergina (Aigai) – Kalambaka (Meteora)</h2>
+            <div class="hotel-badge">🏨 Otel: Hotel Kaikis - Kalambaka (Rez: 5738903346)</div>
+        </div>
+
+        <div class="alert-box">
+            <strong>⏰ Salı Günü Özel Saat Planlaması:</strong> 27 Ekim Salı günü <strong>Vergina Kraliyet Mezarları Müzesi saat 12:00'de açılır</strong> (10:00'da Perea'dan çıkmanız tam 12:00'de kapıda olmanızı sağlar). Meteora'da ise en büyük manastır olan Büyük Meteoron Salı günleri kapalıdır; bu nedenle öğleden sonra açık olan <strong>Varlaam (16:00'ya kadar)</strong> ve <strong>Roussanou (16:30'a kadar)</strong> manastırlarını gezeceğiz.
+        </div>
+
+        <div class="grid-2">
+            <div class="info-panel">
+                <h4>🅿️ Vergina & Meteora Otopark Bilgisi</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-park">Müze Otoparkı</span> <strong>Aigai Kraliyet Mezarları Müzesi:</strong> Girişinde ücretsiz, düz ve geniş açık otopark alanı mevcuttur.
+                    </li>
+                    <li>
+                        <span class="tag tag-park">Manastır Otoparkları</span> <strong>Meteora Manastırları:</strong> Dağ yolu geniş ve yeni asfalttır. Varlaam ve Roussanou manastırlarının tam kapısının önünde ücretsiz park cepleri vardır.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-panel">
+                <h4>🍽️ Kalambaka (Meteora) Glutensiz & Helal Dostu Restoranlar</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-gf">Çölyak Dostu</span> <span class="tag tag-halal">Kuzu & Sebze</span> <strong>Yamas Taverna Restaurant (Kalambaka)</strong><br>
+                        Meteora kayalıklarının tam altında, uluslararası çölyak rehberlerinde (Atly vb.) glutensiz seçenekleriyle öne çıkan aile tavernası. Fırında kuzu, ızgara tavuk ve zeytinyağlı sebze yemekleri mevcuttur.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Yamas+Taverna+Kalambaka&query_place_id=ChIJV9cn9MwPWRMRwtel3BLde8M">📍 Yamas Taverna Konumu</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-gf">Zengin Vejetaryen/Sebze</span> <strong>Restaurant Meteora Gkertsou Family</strong><br>
+                        1925'ten beri hizmet veren tarihi aile restoranı; ayrı bir zeytinyağlı sebze/vegan menüsü ve taze et/tavuk yemekleri bulunur.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Restaurant+Meteora+Gkertsou+Family&query_place_id=ChIJZ-YdJcwPWRMRAIJBG8I77UI">📍 Restaurant Meteora Konumu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 1.5rem;">🏛️ Ardışık Rota ve Tarihi Bilgiler</h3>
+        <div class="timeline">
+            <div class="stop-item">
+                <span class="stop-time">12:00 – 13:15</span>
+                <div class="stop-title">1. Vergina (Aigai) Kraliyet Mezarları Müzesi</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> UNESCO Dünya Mirası Listesi'nde yer alan Aigai, Antik Makedonya Krallığı'nın ilk başkentiydi. 1977 yılında arkeolog Manolis Andronikos tarafından keşfedilen dev toprak tümülüsün altında, <strong>Büyük İskender'in babası Kral II. Filip'in (MÖ 336)</strong> hiç soyulmamış anıt mezarı ve İskender'in oğlu IV. İskender'in mezarı bulunmuştur. Müze bizzat bu yer altı mezarlarının içine inşa edilmiştir; II. Filip'in saf altından meşe yapraklı kraliyet çelengi ve 16 ışınlı Vergina Güneşi işlemeli altın kemik kutusu (larnaks) dünya arkeoloji tarihinin en büyük hazinelerindendir.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Museum+of+the+Royal+Tombs+of+Aigai&query_place_id=ChIJKStsygjyVxMRtxRoIGBCgJI">📍 Vergina Müzesi Konumu</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">15:15 – 16:45</span>
+                <div class="stop-title">2. Meteora: Varlaam Manastırı & Roussanou Manastırı</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> 60 milyon yıl önce tarih öncesi bir iç denizin çekilmesiyle oluşan 400 metrelik devasa kumtaşı sütunların tepesine, 14. yüzyılda Osmanlı akınlarından ve dünyevi hayattan inzivaya çekilen keşişler tarafından 24 manastır inşa edilmiştir (günümüzde 6'sı aktiftir). "Havada asılı duran" anlamına gelen <strong>Meteora</strong>'da, 1517'de kurulan <strong>Varlaam Manastırı</strong>'na yüzyıllarca sadece 373 metrelik uçurumdan sarkıtılan ağlar ve halat merdivenlerle çıkılabilmiştir; içerisindeki eski halat vinç kulesi ve 1548 tarihli Bizans freskleri bugün hala görülebilir. Hemen altındaki <strong>Roussanou Manastırı</strong> ise ince bir kaya sütununun tamamını kaplayan dramatik mimarisiyle en fotojenik yapıdır.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Monastery+of+Varlaam+Meteora&query_place_id=ChIJmUP3fK8PWRMRyF8qX4Npg9Q">📍 Varlaam Manastırı</a>
+                <a class="btn btn-parking" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Monastery+of+Roussanou+Meteora&query_place_id=ChIJQylXyroPWRMRxZUgOMtFYTo">📍 Roussanou Manastırı</a>
+                <a class="btn btn-parking" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Great+Meteoron+Monastery&query_place_id=ChIJHcpX364PWRMRViike_amrCs">📍 Büyük Meteoron (Dış Seyir)</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">18:00</span>
+                <div class="stop-title">3. Kalambaka Otele Varış (Hotel Kaikis)</div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Hotel+Kaikis+Kalambaka&query_place_id=ChIJM0O5fsgPWRMRdonAkG5b5-A">📍 Otel Konumu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. GÜN: DİON & İSKEÇE -->
+    <section id="gun5" class="section-card">
+        <div class="day-header">
+            <h2>5. Gün: 28 Ekim Çarşamba (Ohi Günü) | Kalambaka – Dion – İskeçe – Mandra</h2>
+            <div class="hotel-badge">🏨 Otel: Petrinos Lofos - Mandra (Rez: 6266974331)</div>
+        </div>
+
+        <div class="alert-box">
+            <strong>🛣️ Rota & Resmi Tatil Uyarısı:</strong> Kalambaka'dan Dion'a giderken Olimpos Dağı'nın arkasındaki dar dağ yollarına girmeyin; <strong>Larissa üzerinden A1 otoyolunu</strong> kullanın. 28 Ekim "Ohi Günü" (Ulusal Bayram) olduğu için İskeçe'ye öğleden sonra (15:30 gibi) vardığınızda sabahki geçit törenleri bitmiş ve yollar açılmış olacaktır.
+        </div>
+
+        <div class="grid-2">
+            <div class="info-panel">
+                <h4>🅿️ Dion & İskeçe Otopark Noktaları</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-park">Dion</span> <strong>Dion Arkeolojik Parkı:</strong> Girişinde ücretsiz açık otopark mevcuttur.
+                    </li>
+                    <li>
+                        <span class="tag tag-park">İskeçe Merkez</span> <strong>Otopark Roloi (Saat Kulesi Yanı)</strong><br>
+                        Eski Şehir'in dar sokaklarına girmeden, Saat Kulesi'nin hemen yanında yer alan en merkezi otopark.<br>
+                        <a class="btn btn-parking" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Otopark+Roloi+Xanthi&query_place_id=ChIJxzfLVjktrBQRGF3PzE2xdz0">📍 Otopark Roloi Konumu</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info-panel">
+                <h4>🍽️ İskeçe (Xanthi) Yemek & Kafe Önerileri</h4>
+                <ul class="place-list">
+                    <li>
+                        <span class="tag tag-halal">Tarihi Konak</span> <strong>Παλαιά Πόλις (Palaia Polis - Eski Şehir)</strong><br>
+                        İskeçe Eski Şehir'de tarihi bir taş konakta hizmet veren geleneksel restoran. Garsona SOS kartınızı göstererek ızgara tavuk/kuzu ve zeytinyağlı salatalar tercih edebilirsiniz (İskeçe'de Türkçe bilen personel de oldukça yaygındır).<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Palaia+Polis+Xanthi&query_place_id=ChIJVeig0zgtrBQRisNkdn1IB4c">📍 Palaia Polis Konumu</a>
+                    </li>
+                    <li>
+                        <span class="tag tag-halal">Geleneksel Meydan</span> <strong>Ελιά (Elia) & Αμάλθεια (Amaltheia)</strong><br>
+                        Eski Şehir girişinde ve ara sokaklarında yer alan yüksek puanlı restoran ve kafe alternatifleri.<br>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Elia+Xanthi&query_place_id=ChIJjXc4a4MtrBQRaiTZRKMrG4I">📍 Elia</a>
+                        <a class="btn btn-food" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Amaltheia+Xanthi&query_place_id=ChIJ2ZNJxjgtrBQRpKwWycUo5q8">📍 Amaltheia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 1.5rem;">🏛️ Ardışık Rota ve Tarihi Bilgiler</h3>
+        <div class="timeline">
+            <div class="stop-item">
+                <span class="stop-time">10:15 – 12:00</span>
+                <div class="stop-title">1. Dion Arkeolojik Parkı (Olimpos Dağı Etekleri)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Yunan mitolojisinde 12 tanrının evi kabul edilen Olimpos Dağı'nın tam eteklerinde kurulu olan <strong>Dion</strong>, adını baş tanrı Zeus'tan ("Dios") alır ve Makedonların en kutsal dini merkeziydi. Büyük İskender, MÖ 334 yılında Asya seferine çıkmadan hemen önce tüm ordusunu burada toplamış ve Zeus tapınağında 9 gün boyunca kurbanlar sunmuştur. Sulak ve yemyeşil bir orman içinde yer alan antik kentte İsis Tapınağı (su içinde yükselen sütunlarıyla ünlüdür), Roma hamamları ve antik tiyatro düz bir yürüyüş parkuruyla gezilir.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Archaeological+Site+of+Dion&query_place_id=ChIJa2hneLAFWBMRAjRX_zXWlYA">📍 Dion Arkeolojik Parkı</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">15:30 – 18:30</span>
+                <div class="stop-title">2. İskeçe (Xanthi) Eski Şehir (Old Town)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> "Binbir Rengin Şehri" olarak anılan İskeçe, 18. ve 19. yüzyıllarda Osmanlı İmparatorluğu'nun en değerli tütün üretim merkeziydi ("Yenice ve İskeçe tütünü"). 1829 depreminden sonra zengin Osmanlı, Rum ve Avrupalı tütün tüccarları tarafından yamaç boyunca inşa edilen 1.200'den fazla cumbalı ahşap ve neoklasik taş konak, günümüzde Yunanistan'ın en iyi korunmuş tarihi mahallelerinden birini oluşturur. Meydandaki Osmanlı Saat Kulesi ise 1859 yılında Hacı Emin Ağa tarafından yaptırılmıştır.
+                </div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Xanthi+Old+Town&query_place_id=ChIJ0xBXrTgtrBQRQJJk1Wf4fwg">📍 İskeçe Eski Şehir</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">19:00</span>
+                <div class="stop-title">3. Mandra Otele Varış (Petrinos Lofos)</div>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Petrinos+Lofos+Mandra&query_place_id=ChIJ149suc_WrRQRN1pR7S3R3qM">📍 Petrinos Lofos Konumu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. GÜN: PORTO LAGOS & DÖNÜŞ -->
+    <section id="gun6" class="section-card">
+        <div class="day-header">
+            <h2>6. Gün: 29 Ekim Perşembe | Mandra – Porto Lagos – İpsala – İstanbul</h2>
+            <div class="hotel-badge">🏁 Türkiye'ye Dönüş Etabı</div>
+        </div>
+
+        <div class="timeline">
+            <div class="stop-item">
+                <span class="stop-time">09:45 – 10:45</span>
+                <div class="stop-title">1. Porto Lagos – Aziz Nikolaos Manastırı (Ιερά Μονή Αγίου Νικολάου)</div>
+                <div class="history-box">
+                    <strong>📜 Tarihi Bilgi:</strong> Vistonida Gölü ile Ege Denizi'nin birleştiği sığ lagün üzerinde yer alan iki küçük adacık üzerine kurulmuş ve karaya uzun ahşap yaya köprüleriyle bağlanmış eşsiz bir manastırdır. Efsaneye göre Osmanlı döneminde bölgede yaşayan bir bey, kızının hastalığının buradaki şifalı suyla iyileşmesi üzerine araziyi Aynoroz'daki (Athos Dağı) Vatopedi Manastırı'na vakfetmiştir. Ekim ayında göl çevresinde konaklayan pembe flamingoları ve pelikanları izlemek için muazzam bir doğa durağıdır.
+                </div>
+                <p style="margin-bottom: 8px;"><strong>🅿️ Otopark:</strong> Ahşap köprünün hemen girişinde ücretsiz ve geniş park alanı mevcuttur. Aracınızı bırakıp köprülerden yürüyerek adacıklara geçebilirsiniz.</p>
+                <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Monastery+of+Saint+Nicholas+Porto+Lagos&query_place_id=ChIJnfy003TZrRQRGjYuof1qWkM">📍 Porto Lagos Manastırı Konumu</a>
+            </div>
+
+            <div class="stop-item">
+                <span class="stop-time">10:45 – 17:00</span>
+                <div class="stop-title">2. Gümülcine & Dedeağaç (A2 Otoyolu) Üzerinden İpsala Sınır Kapısı ve İstanbul</div>
+                <p>Porto Lagos'tan çıktıktan sonra doğrudan A2 (Egnatia Odos) otoyoluna bağlanarak yaklaşık 1 saat 40 dakikada (135 km) Kipi/İpsala Sınır Kapısı'na ulaşabilir ve Türkiye'ye giriş yapabilirsiniz.</p>
+                <a class="btn btn-primary" style="margin-top:6px;" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Ipsala+Border+Gate&query_place_id=ChIJ4e_8jiw0shQRtSgud9v168o">📍 İpsala Sınır Kapısı</a>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Bu rehber 24–29 Ekim Yunanistan seyahatiniz için özel olarak hazırlanmıştır. Telefonunuza veya bilgisayarınıza kaydederek çevrimdışı (offline) olarak da tüm bilgilere ve Yunanca iletişim kartına erişebilirsiniz.</p>
+</footer>
+
+<script>
+    function copyGreekText() {
+        const text = document.getElementById('greek-card-text').innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Yunanca Çölyak & Domuz Eti Yok bilgi metni panoya kopyalandı!');
+        });
+    }
+</script>
+
+</body>
+</html>
